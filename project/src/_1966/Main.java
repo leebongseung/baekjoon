@@ -4,10 +4,13 @@ package _1966;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.Queue;
 
-/*  시작 시간 : 10시 08분
- *   종료 시간 : 10시 분
+/*  시작 시간 : 09시 00분
+ *   종료 시간 : 10시 52분
  * */
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -22,37 +25,40 @@ public class Main {
             int findDoc =  Integer.parseInt(str.split(" ")[1]); // 찾을 문서
             String strImp = bf.readLine();
 
-            Queue<int[]> q = new LinkedList<>();
-//            Queue<Integer> idxQ = new LinkedList<>(); // 중요도
-//            Queue<Integer> impQ = new LinkedList<>(); // 인덱스
-
+            Queue<Integer> idxQ = new LinkedList<>(); // 중요도
+            Queue<Integer> impQ = new LinkedList<>(); // 인덱스
+            Integer[] nums = new Integer[n]; // 중요도가 높은 순서대로 정렬
 
             for(int j =0; j<n; j++){
                 int imp = Integer.parseInt(strImp.split(" ")[j]) - 1;
-                q.offer(new int[]{imp, j});
-//                impQ.offer(imp);
-//                idxQ.offer(j);
+                nums[j] = imp;
+                impQ.offer(imp);
+                idxQ.offer(j);
             }
 
+            // 내림차순 정렬
+            Arrays.sort(nums, new Comparator<Integer>() {
+                @Override
+                public int compare(Integer o1, Integer o2) {
+                    return o2-o1;
+                }
+            });
 
             int cnt = 0;
 
-            while(!q.isEmpty()){
-                int max = Collections.max();
-                int[] impAndIdx = q.poll(); // 0:imp, 1:idx
-//                int imp = impQ.poll();
-//                int idx = idxQ.poll();
+            while(!impQ.isEmpty()){
+                int imp = impQ.poll();
+                int idx = idxQ.poll();
 
-                if(impAndIdx[0] == max){
+                if(nums[cnt] == imp){
                     cnt ++;
-                    if(impAndIdx[1] == findDoc){
+                    if(idx == findDoc){
                         break;
                     }
                     continue ;
                 }
-                q.offer(impAndIdx);
-//                impQ.offer(imp);
-//                idxQ.offer(idx);
+                impQ.offer(imp);
+                idxQ.offer(idx);
             }
             sb.append(cnt);
             sb.append("\n");
