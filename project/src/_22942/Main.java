@@ -26,6 +26,7 @@ public class Main {
 
             arr.addLast(new int[]{left, i});
             arr.addLast(new int[]{right, i});
+
         }
 
         // left 오름차순 정렬
