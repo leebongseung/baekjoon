@@ -4,11 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
-import java.util.Queue;
 
-/*  시작 시간 : 9시 01분.
-*   죵료 시간 : 10시 20분 실패
-* */
+/*  하루에 2시간씩 2일동안 품.. 
+ * */
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -18,50 +16,67 @@ public class Main {
         LinkedList<Character> waitStack = new LinkedList<>();
 
 
-        for(int i =0; i< sinput.length(); i++){
-            if(sinput.charAt(i) == '*' || sinput.charAt(i) == '/') {
-                if(stack.peekFirst() == '+' || stack.peekFirst() == '-'){
-                    waitStack.push(stack.pop());
+        for (int i = 0; i < sinput.length(); i++) {
+            // *, / 일 경우 이전에 값중 +, - 가 존재하는 경우
+            if (sinput.charAt(i) == '*' || sinput.charAt(i) == '/') {
+                if (stack.peekLast() == '+' || stack.peekLast() == '-') {
+                    waitStack.addLast(stack.removeLast());
                 }
-                waitStack.push(sinput.charAt(i));
-            } else if (sinput.charAt(i) == '+' || sinput.charAt(i) == '-'){
-                waitStack.push(sinput.charAt(i));
+                waitStack.addLast(sinput.charAt(i));
+            } else if (sinput.charAt(i) == '+' || sinput.charAt(i) == '-') {
+                waitStack.addLast(sinput.charAt(i));
             } else if (sinput.charAt(i) == '(') {
-                stack.push(sinput.charAt(i));
-                waitStack.push(sinput.charAt(i));
+                stack.addLast(sinput.charAt(i));
+                waitStack.addLast(sinput.charAt(i));
             } else if (sinput.charAt(i) == ')') {
-                stack.push(sinput.charAt(i));
-                while (!waitStack.isEmpty()){
-                    if(waitStack.peek() == '('){
-                        waitStack.pop();
+                while (!waitStack.isEmpty()) {
+                    if (waitStack.peekLast() == '(') {
+                        waitStack.removeLast();
                         break;
                     }
-                    stack.push(waitStack.pop());
+                    stack.addLast(waitStack.removeLast());
                 }
-            }
-            else if (sinput.charAt(i) >= 'A' && sinput.charAt(i) <= 'Z'){
-                stack.push(sinput.charAt(i));
-                while (!waitStack.isEmpty()){
-                    if(waitStack.peek() == '('){
+                stack.addLast(sinput.charAt(i));
+                while (!waitStack.isEmpty()) {
+                    if (waitStack.peekLast() == '(') {
                         break;
                     }
-                    stack.push(waitStack.pop());
+                    stack.addLast(waitStack.removeLast());
+                }
+            } else if (sinput.charAt(i) >= 'A' && sinput.charAt(i) <= 'Z') {
+                stack.addLast(sinput.charAt(i));
+                while (!waitStack.isEmpty()) {
+                    if (waitStack.peekLast() == '(') {
+                        break;
+                    }
+                    stack.addLast(waitStack.removeLast());
                 }
             }
+
+//            System.out.println(i + "번째 stack:");
+//            for (var ch : stack) {
+//                System.out.print(ch);
+//            }
+//            System.out.println();
+//            System.out.println(i + "번째 wait스택:");
+//            for (var ch : waitStack) {
+//                System.out.print(ch);
+//            }
+//            System.out.println();
+//            System.out.println("-------------");
         }
 
-        while (!waitStack.isEmpty()){
-            stack.push(waitStack.pop());
+        while (!waitStack.isEmpty()) {
+            stack.addLast(waitStack.removeLast());
         }
 
-        int cnt = 0;
-        while(!stack.isEmpty()){
-            cnt++;
-            if(stack.peekLast() == '(' || stack.peekLast() == ')'){
-                stack.removeLast();
+        while (!stack.isEmpty()) {
+            if (stack.peekFirst() == '(' || stack.peekFirst() == ')') {
+                stack.removeFirst();
                 continue;
             }
-            System.out.print(stack.removeLast());
+            System.out.print(stack.removeFirst());
         }
     }
+
 }
