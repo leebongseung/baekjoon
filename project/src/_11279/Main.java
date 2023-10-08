@@ -1,7 +1,11 @@
 package _11279;
+<<<<<<< HEAD
 /*  시작시간 : 1시 00분
 *  종료 시간 : 1시 30분
 * */
+=======
+
+>>>>>>> 7b49c82c436b49acd1932a54db2ee982bfc456d9
 
 import java.io.*;
 import java.util.Collections;
