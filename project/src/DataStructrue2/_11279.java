@@ -1,14 +1,14 @@
-package _11279;
+package DataStructrue2;
 
 /*  시작시간 : 1시 00분
-*  종료 시간 : 1시 30분
-* */
+ *  종료 시간 : 1시 30분
+ * */
 
 import java.io.*;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class Main {
+public class _11279 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bf.readLine()); // 연산의 개수

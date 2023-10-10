@@ -1,8 +1,8 @@
-package _14425;
+package DataStructrue2;
 
 /*  시작 시간 : 12시 39분
-*   종료 시간 : 12시 52분
-* */
+ *   종료 시간 : 12시 52분
+ * */
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import java.nio.Buffer;
 import java.util.*;
 
-public class Main {
+public class _14425 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
