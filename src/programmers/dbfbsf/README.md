@@ -1,7 +1,7 @@
 ## DFS/ BFS
 <details>
 <summary>
-<a href="">1844 - 게임맵(소요시간: 1시간)</a>
+<a href="_1844.java">1844 - 게임맵(소요시간: 1시간)</a>
 </summary> 
     <ul>
 <li>아이디어<ul>

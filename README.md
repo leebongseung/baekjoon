@@ -5,6 +5,7 @@
 ### 백준
 
 ---
+- [이진 탐색](src/backjoon/binary_search/README.md)
 
 ---
 
