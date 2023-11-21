@@ -23,3 +23,33 @@
 </ul>
 
 </details>
+
+<details>
+<summary>
+<a href="_11726.java">11726 - 2×n 타일링(60분)</a>
+</summary> 
+<ul>
+<li><p>풀이 방법</p>
+<ul>
+<li><p>n-1번째 결과와 n-2번으로 점화식을 구성하였습니다.</p>
+</li>
+
+![image](https://github.com/leebongseung/coding-test/assets/101985441/804af436-2ddb-43ff-aad5-6704ef8ce8e9)
+
+
+<li><p>위의 사진을 보면 이전의 결과에서 세로도형과 가로도형을 이용하여 다양한 예상경로를 추출해나가면서 점화식을 구성해보았습니다.</p>
+</li>
+</ul>
+</li>
+<li>어려웠던 점<ul>
+<li>점화식을 도출하기 까지가 가장 어려웠습니다.</li>
+</ul>
+</li>
+<li>배운점<ul>
+<li>가능한 모든 예시를 생각하고 적용해나가면서 결과를 내야한다!</li>
+</ul>
+</li>
+</ul>
+
+
+</details>
