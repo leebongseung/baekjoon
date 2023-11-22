@@ -50,6 +50,31 @@
 </ul>
 </li>
 </ul>
+</details>
+
+<details>
+<summary>
+<a href="_11727.java">11727 - 2*n 타일링2(20분)</a>
+</summary> 
+
+<ul>
+<li>풀이 방법<ul>
+<li>그림을 그려가며 모든 경우의 수를 예측했다. </li>
+
+![image](https://github.com/leebongseung/coding-test/assets/101985441/de9b5fe8-6cd6-4cc7-8e40-739c4be4b73a)
+</ul>
+</li>
+<li>어려웠던 점<ul>
+<li>가로일 경우 두번이 반복되는 과정에서 너무 어려웠다.</li>
+</ul>
+</li>
+<li>배운점 <ul>
+<li>도형 조금 자신감이 생겼습니다.</li>
+</ul>
+</li>
+</ul>
+
 
 
 </details>
+
