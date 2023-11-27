@@ -24,17 +24,16 @@ public class _12865 {
 
 
             // 현재 무게에 대한 가치 구하기
-            for(int j=weight; j<=k; j++){
-                // 만약에 현재무게의가치 + (j-현재무게의 가치) > j번째의 가치일 경우 교체가 됨.
-                tmp[j] = Math.max(value + arr[j - weight], arr[j]);
+            for(int j=1; j<=k; j++){
+                if(j >= weight) {
+                    // 만약에 현재무게의가치 + (j-현재무게의 가치) > j번째의 가치일 경우 교체가 됨.
+                    tmp[j] = Math.max((value + arr[j - weight]), arr[j]);
+                } else{
+                    tmp[j] = arr[j];
+                }
             }
 
-            for (int i1 : tmp) {
-                System.out.println(i1 +" ");
-            }
-            System.out.println();
-
-            arr = tmp;
+            arr = tmp.clone();
         }
         System.out.println(arr[k]);
     }

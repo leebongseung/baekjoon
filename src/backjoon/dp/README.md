@@ -84,3 +84,38 @@
 
 </details>
 
+<details>
+<summary>
+<a href="_12865.java">12865 - 평범한 배낭 (120분)</a>
+<ul>
+<li>풀이 방법<ul>
+<li>그림을 그려가면서 dp를 적용하는 방법에 대하여 구상하기</li>
+
+![image](https://github.com/leebongseung/coding-test/assets/101985441/cbfce34a-de76-4602-82f4-e79397394bda)
+
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>어려웠던 점</p>
+<ul>
+<li>구현하는 과정을 1차원 배열로 하는 과정에서 tmp라는 1차원배열도 함께 사용하였는데 얕은 복사로 참조되었다는걸 디버깅을 통해서 알았다. 그래서 앞으로 더 주의 해야할 것 같다. </li>
+</ul>
+</li>
+<li><p>배운 점</p>
+<ul>
+<li>clone의 중요성</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+</summary> 
+
+
+
+
+
+</details>
