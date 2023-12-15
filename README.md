@@ -4,6 +4,7 @@
 
 - [자료구조2(Set 등)](/src/backjoon/DataStructrue2/READEME.md)
 - [트리](/src/backjoon/tree/READEME.md)
+- [그리디](src/backjoon/greedy/READEME.md)
 - [최단경로알고리즘](/src/backjoon/shortest_path/READEME.md)
 - [이진 탐색](src/backjoon/binary_search/README.md)
 - [DP](src/backjoon/dp/README.md)
