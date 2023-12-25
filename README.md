@@ -9,6 +9,7 @@
 - [이진 탐색](src/backjoon/binary_search/README.md)
 - [DP](src/backjoon/dp/README.md)
 - [sliding window](src/backjoon/slidingwindow/READEME.md)
+- [문자열](src/backjoon/string/READEME.md)
 
 ### 프로그래머스
 
