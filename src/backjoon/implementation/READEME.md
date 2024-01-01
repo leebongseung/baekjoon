@@ -1,6 +1,29 @@
 ## 구현
 <details>
 <summary>
+<a href="_1205.java">1205 - 등수구하기(50분)</a>
+</summary>
+<ul>
+<li><p>풀이과정</p>
+<ul>
+<li>우선 -1이 출력되는 조건을 추려서 if 문과 else 문을 구현을 한다.</li>
+<li>else 문안에서 현재 스코어의 랭킹을 출력함.</li>
+</ul>
+</li>
+<li><p>어려운점</p>
+<ul>
+<li>동일한 점수일경우 같은 등수가 출력되어야 했는데 그 조건을 생각하기 어려웠다.</li>
+</ul>
+</li>
+<li><p>배운점
+- </p>
+</li>
+</ul>
+
+</details>
+
+<details>
+<summary>
 <a href="_1138.java">1138 - 한 줄로 서기(20분)</a>
 </summary>
 
