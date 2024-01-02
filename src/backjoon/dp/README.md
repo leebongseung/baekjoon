@@ -1,6 +1,36 @@
 ## DP
 <details>
 <summary>
+<a href="_14501.java">14501 - 퇴사(40분)</a>
+</summary> 
+<ul>
+<li><p>풀이과정</p>
+<ul>
+<li>조건1. 현재 작업 기간이 퇴사일에 벗어나지않아야 함.</li>
+<li>조건2. 현재 위치랑 이전위치랑 비교해서 큰 값을 결정하는 조건, 마지막 날짜의 최대 수익을 계산하기위한 조건.</li>
+<li>조건3. 마지막 날짜 는 n+1임.</li>
+</ul>
+</li>
+<li><p>어려운점</p>
+<ul>
+<li>조건 1번은은 했었음.</li>
+<li>조건 2,3 번을 세우는데 어려웠다.</li>
+
+![image](https://github.com/leebongseung/coding-test/assets/101985441/e1bd5bcf-c46f-4981-846e-693e91d9e259)
+
+</ul>
+</li>
+<li><p>배운점</p>
+<ul>
+<li>dp 방식으로 원소 하나하나 접근하면서 증가하는 로직으로 구현.</li>
+</ul>
+</li>
+</ul>
+
+</details>
+
+<details>
+<summary>
 <a href="_12865.java">12865 - 평범한 배낭 (120분)</a>
 </summary> 
 <ul>
