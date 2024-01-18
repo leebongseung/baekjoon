@@ -1,6 +1,26 @@
 ## 비트연산
 <details>
 <summary>
+<a href="_17681.java"> [3차] n진수 게임 (소요시간: 1시간 40분)</a>
+</summary> 
+
+✐ **코드 설명**
+
+- n 진수로 변환하고
+- str 로 순서를 정한 거 만큼 할당 해주 었다.
+
+🤔 **어려웠던 부분 / 배운 점**
+
+- 숫자를 n진수로 변환했던 부분이 가장 난이도가 높았고 풀이시간은 1시간 40분 정도 풀었다.
+
+🌱 **해설 / 다른 사람 코드 참고**
+
+- Integer.toString 함수를 Integer.toString(int i, int radix) 형태로 사용하게 되면 i를 radix에 해당하는 진법으로 변환할 수 있다
+
+</details>
+
+<details>
+<summary>
 <a href="_17681.java"> [1차] 비밀지도(소요시간: 30분)</a>
 </summary> 
 

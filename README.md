@@ -16,5 +16,5 @@
 ### 프로그래머스
 
 - [비트 연산](src/programmers/bitwise_operation/README.md)
-- [DFS 와 BFS](src/programmers/dbfbsf/README.md)
+- [DFS 와 BFS](src/programmers/dfsbfs/README.md)
 

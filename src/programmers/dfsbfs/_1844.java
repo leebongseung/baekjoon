@@ -1,4 +1,4 @@
-package programmers.dbfbsf;
+package programmers.dfsbfs;
 import java.util.*;
 
 public class _1844 {
