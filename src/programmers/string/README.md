@@ -2,6 +2,36 @@
 
 <details>
 <summary>
+<a href="_17682.java">[1차] 다트 게임(소요시간: 1시간 30분)</a>
+</summary> 
+
+✐ **코드 설명**
+
+- String[] chars = dartResult.split(`"[0-9]+"`); /// S, D, T 로 1제곱, 2제곱, 3제곱으로 점수계산
+- String[] number =  dartResult.replaceAll(`"[*|#]",""`).split("[A-Z]+"); // 0~ 10점 얻을 수 있음/
+
+🤔 **어려웠던 부분 / 배운 점**
+
+- 문자열 나누는게 가장 어려웠따.
+- 정규표현식으로 숫자를 제외하는 방법 `“[0-9]+”` , 모든 숫자를 제거함
+- 정규표현식으로 특정문자를 제외하는 방법`"[*|#]"` , 특정 문자를 제거함
+
+🌱 **해설 / 다른 사람 코드 참고**
+
+- split말고 특정문자뒤에 추가하는 방법
+
+    ```jsx
+    dartResult = dartResult.replaceAll("\\*", "* ");
+    dartResult = dartResult.replaceAll("\\#", "# ");
+    ```
+
+  `신기방기 역슬래쉬 두개 넣으면 문자뒤에 문자를 추가가능하다!`
+
+
+</details>
+
+<details>
+<summary>
 <a href="_17687.java">k진수에서 소수 개수 구하기(소요시간: 50분)</a>
 </summary> 
 
