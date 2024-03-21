@@ -15,38 +15,40 @@ public class _1253 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bf.readLine());
 
-        long[] arr = new long[n];
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        int idx = 0;
+        long[] arr = new long[n];
+        int idx = 0 ;
         while(st.hasMoreTokens()){
-            arr[idx++] = Integer.parseInt(st.nextToken());
+            arr[idx++] = Long.parseLong(st.nextToken());
         }
 
-        // 정렬 수행하기
         Arrays.sort(arr);
 
-        // 투포인터를 이용해서 현재 idx가 두개의 합으로 나오는지 확인
-        int res = 0;
+        long res = 0L;
         for(int i=0; i<n; i++){
             int start = 0;
             int end = n-1;
-            long num = arr[i];
+
             while(start < end){
-                long sum = arr[start] + arr[end];
-                if(sum > num){
-                    end--;
-                } else if(sum < num){
-                    start++;
-                } else if(sum == num){
+                long num = arr[start] + arr[end];
+
+                if(num == arr[i]){
                     if(start != i && end != i){
-                        res++;
+                        res ++;
                         break;
-                    } else if(start == i) start++;
-                    else if (end == i) end--;
+                    } else if(start == i){
+                        start ++;
+                    } else if(end == i){
+                        end --;
+                    }
+
+                } else if (num <= arr[i]){
+                    start++;
+                } else if (num >= arr[i]){
+                    end--;
                 }
             }
         }
         System.out.print(res);
-        bf.close();
     }
 }
