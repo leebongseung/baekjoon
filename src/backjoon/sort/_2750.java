@@ -1,31 +1,33 @@
-    package backjoon.sort;
+package backjoon.sort;
 
-    import java.io.BufferedReader;
-    import java.io.IOException;
-    import java.io.InputStreamReader;
-    import java.util.*;
+import java.io.*;
+import java.util.*;
 
-    /*  시작 시간 : 3시 25분
-    *   종료 시간 : 3시 32분
-    * */
-    public class _2750 {
+/**
+ * 문제분석
+ * - 시간제한 1초 정렬문제
+ * - n이 1000이하일때 중복되는 수는 없고 정렬하는문제
+ * */
+
+public class _2750 {
         public static void main(String[] args) throws IOException {
-            // 풀이는 버블 정렬 x, 삽입 정렬 혹은 그 병합 정렬을 하거나 해야한다.
-            // 문제에서는 삽입 정렬을 했으니 삽입으로 풀어보자.
             BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
             int n = Integer.parseInt(bf.readLine());
-            List<Integer> list = new ArrayList<>();
-            for(int i =0; i<n; i++){
-                list.add(Integer.parseInt(bf.readLine()));
-            }
-            Collections.sort(list);
-
-            StringJoiner sj = new StringJoiner(" ");
-            for (Integer integer : list) {
-                sj.add(Integer.toString(integer));
+            int[] arr = new int[n];
+            for(int i=0; i<n; i++){
+                arr[i] = Integer.parseInt(bf.readLine());
             }
 
-            System.out.println(sj);
+            Arrays.sort(arr);
+
+            for(int i : arr){
+                bw.write(i + "\n");
+            }
+            bw.flush();
+            bw.close();
+            bf.close();
+
         }
     }
