@@ -39,7 +39,7 @@ public class _2156 {
         dp[1] = arr[0];
         dp[2] = arr[0] + arr[1];
 
-        List<Integer> lst = new ArrayList<>();
+        List<Integer> lst;
         for(int i = 3; i <= n; i++){
             lst = new ArrayList<>();
             lst.add(dp[i-1]);
