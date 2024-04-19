@@ -7,48 +7,50 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
-* 시작 시간 : 11시 2분
- * 종료 시간 : ???
-* */
+ * 시작 시간 : 11시 25분
+ * 종료 시간 :
+ *
+ * 문제 분석
+ * - N개의 수 중에서 어떤 수가 다른 수 두개의 합으로 나타낼 수 있으면 좋다!
+ * - N개의 수가 주어지면 그중에서 좋은 수의 개수를 출력한다.
+ * - 수의 위치가 다르면 값이 같아도 다른수임.
+ *
+ * */
 public class _1253 {
+
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bf.readLine());
-
         StringTokenizer st = new StringTokenizer(bf.readLine());
+
         long[] arr = new long[n];
-        int idx = 0 ;
-        while(st.hasMoreTokens()){
-            arr[idx++] = Long.parseLong(st.nextToken());
+        for(int i=0; i<n; i++){
+            arr[i] = Long.parseLong(st.nextToken());
         }
 
         Arrays.sort(arr);
 
-        long res = 0L;
+        int res =0 ;
         for(int i=0; i<n; i++){
-            int start = 0;
-            int end = n-1;
+            int left = 0;
+            int right = n-1;
 
-            while(start < end){
-                long num = arr[start] + arr[end];
-
-                if(num == arr[i]){
-                    if(start != i && end != i){
-                        res ++;
+            while(left < right){
+                long sum = arr[left] + arr[right];
+                if(sum == arr[i]){
+                    if(left != i && right != i) {
+                        res++;
                         break;
-                    } else if(start == i){
-                        start ++;
-                    } else if(end == i){
-                        end --;
+                    } else if(left == i){
+                        left++;
+                    } else {
+                        right--;
                     }
-
-                } else if (num <= arr[i]){
-                    start++;
-                } else if (num >= arr[i]){
-                    end--;
                 }
+                else if(sum < arr[i]) left++;
+                else if(sum > arr[i]) right--;
             }
         }
-        System.out.print(res);
+        System.out.println(res);
     }
 }
