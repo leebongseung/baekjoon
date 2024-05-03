@@ -69,8 +69,8 @@ public class _10282 {
                 lastTime = poll.weight;
 
                 for(Node n : lst[poll.idx]){
-                    // 다익스트라 배열보다 작을 경우 q에 삽       if(dijkstraArr[n.idx] > dijkstraA입
-             rr[poll.idx] + n.weight){
+                    // 다익스트라 배열보다 작을 경우 q에 삽입
+                     if(dijkstraArr[n.idx] > dijkstraArr[poll.idx] + n.weight){
                         dijkstraArr[n.idx] = dijkstraArr[poll.idx] + n.weight;
                         q.add(new Node(n.idx, dijkstraArr[n.idx]));
                     }
