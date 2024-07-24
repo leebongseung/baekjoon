@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /**
@@ -44,45 +43,37 @@ public class _1477 {
         }
         Arrays.sort(arr);
 
-//        for (int i : arr) {
-//            System.out.print(i + " ");
-//        }
-//        System.out.println();
-//        System.out.println("===배열정리===");
+        int left = 1;
+        int right = l;
+        int res = 0;
+        while(left <= right){
+            int lengthOfSectionWithoutRestArea = (left + right) / 2;
 
-        //내림차순으로 pq 정렬, 즉 휴게소 사이의 거리가 큰 값부터 추출됨.
-        PriorityQueue<Integer> pq = new PriorityQueue<>((o1, o2) -> o2 - o1);
-        for (int i = 1; i < arr.length; i++) {
-            pq.add(arr[i] - arr[i - 1]);
-//            System.out.print(arr[i] - arr[i - 1] + " ");
+            // 휴게소 없는 구간 길이가 가능한지 추가 휴게소 건설 개수를 파악하기
+            int sum = 0;
+            for(int i=1; i<arr.length; i++){
+                int intervalLength = arr[i] - arr[i-1];
+                // 만약 휴게소 없는 구간 길이 > 나누고자 하는 구간 길이 라면
+                if( intervalLength > lengthOfSectionWithoutRestArea){
+                    // 휴게소 건설 개수 파악하기
+                    sum += intervalLength / lengthOfSectionWithoutRestArea ;
+
+                    // 만약에 210 / 70 일경우 휴게소가 2개만 지어져도 됨.
+                    if(intervalLength % lengthOfSectionWithoutRestArea == 0) sum--;
+                }
+            }
+
+            // 추가 휴게소 개수가 짓고자하는 휴게소 개수를 초과할 경우 -> 구간 길이 증가
+            if(sum > m){
+                left = lengthOfSectionWithoutRestArea + 1;
+            }
+            // 추가 휴게소 개수가 짓고자하는 휴게소 개수보다 작거나 같을 경우 -> 구간 길이 감소
+            else {
+                res = lengthOfSectionWithoutRestArea;
+                right = lengthOfSectionWithoutRestArea - 1;
+            }
+
         }
-//        System.out.println();
-//        System.out.println("====");
-
-
-        // 휴게소 m개 만큼 추가 설치하기!
-        for (int i = 0; i < m; i++) {
-            int distance = pq.poll();
-
-            pq.add(distance / 2);
-            pq.add(distance - (distance / 2));
-
-//            System.out.println("currentValue : " + distance
-//                    + ", div1 : " + distance / 2
-//                    + ", div2 :  " + (distance - (distance / 2)));
-//
-//            for (Integer j : pq) {
-//                System.out.print(j + " ");
-//            }
-//            System.out.println();
-//            System.out.println("====");
-        }
-
-//        while (!pq.isEmpty()) {
-//            System.out.print(pq.poll() + " ");
-//        }
-//        System.out.println();
-        System.out.println(pq.poll());
-
+        System.out.print(res);
     }
 }
