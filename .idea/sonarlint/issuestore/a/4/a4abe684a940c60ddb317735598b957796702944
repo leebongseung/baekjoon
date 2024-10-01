@@ -1,0 +1,22 @@
+
+—
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(ØäáÌıÿÿÿÿ8¸’Ùºé1J$46f4ba25-c445-435d-8f93-90fce9324795
+•
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(œëÚşÿÿÿÿ8¸’Ùºé1J$4f83b8ae-1606-4a89-9404-98d2ece2fe5f
+‘
+java:S1104"NMake dp a static final constant or non-public and provide accessors if needed.(÷áÏ‰8¸’Ùºé1J$d5af500f-603d-415d-9506-8c537a69c817
+q
+java:S1444")Make this "public static arr" field final(ØäáÌıÿÿÿÿ8¹’Ùºé1J$3662f246-72c3-4800-bde2-6782bc13c58d
+o
+java:S1444"'Make this "public static n" field final(œëÚşÿÿÿÿ8¹’Ùºé1J$20520b36-2760-44b5-a4cf-e8d132c8d2cc
+k
+java:S1444"(Make this "public static dp" field final(÷áÏ‰8¹’Ùºé1J$69ecc10d-4245-49e2-9cf6-8f5d5fe10c8d
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(êÌ8º’Ùºé1J$8f114263-f2fa-447d-8c14-be33533700d2
+e
+java:S2386"Make this member "protected".(ØäáÌıÿÿÿÿ8È’Ùºé1J$887da883-ce7b-4917-8c3d-a3f0132470aa
+`
+java:S2386"Make this member "protected".(÷áÏ‰8È’Ùºé1J$25a4c206-2f69-43f1-a33a-e977c5350071
+~	java:S1251"<This block of commented-out lines of code should be removed.(êÜÈ•8×æøºé1J$3a8454db-34ad-4765-a24c-ee73893a0ca9
+m	java:S106:"+Replace this use of System.out by a logger.(á¡• 8¶Àîºé1J$95c7a21c-6d1f-4081-89be-b3ba043fdf02
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ğ’Ùºé1J$b6a7b885-4f65-440c-8a7b-006d7fb7264c

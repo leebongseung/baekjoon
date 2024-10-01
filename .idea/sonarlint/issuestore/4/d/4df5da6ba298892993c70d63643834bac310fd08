@@ -1,0 +1,39 @@
+
+›	java:S135G"YReduce the total number of break and continue statements in this loop to use at most one.(úºûã8±¢ç½û1J$2abbad2d-10bd-49be-9eb1-f3499c4ddbfa
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8³¢ç½û1J$f7951992-dc03-4fbf-b5f3-ff31872db45e
+
+java:S1104"MMake m a static final constant or non-public and provide accessors if needed.(–Åö8³¢ç½û1J$7878b6dc-7eb9-4af3-96f9-8f4244c29d9b
+’
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(Š÷ö˜8³¢ç½û1J$4399777b-b3ad-4f7e-ba5c-f8bce567f7b1
+‘
+java:S1104"OMake res a static final constant or non-public and provide accessors if needed.(‹†68³¢ç½û1J$7f312e84-0ae6-43ad-b50e-a4bee202525c
+œ
+java:S1104"TMake startIdx a static final constant or non-public and provide accessors if needed.(Ê¯Ø×ıÿÿÿÿ8³¢ç½û1J$740b5669-1a9f-407f-ae4c-162662f17199
+–
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(à¥ºÉ8³¢ç½û1J$1e64ae17-c1e7-4439-9519-51c07a2b9d6b
+j
+java:S1444"'Make this "public static n" field final(ÓœşÚ8´¢ç½û1J$5ece8d7b-0cfb-4978-aa29-5c3e385c4c7a
+j
+java:S1444"'Make this "public static m" field final(–Åö8´¢ç½û1J$2749f9bb-d710-43a4-b7a3-6eaf692327af
+l
+java:S1444")Make this "public static arr" field final(Š÷ö˜8´¢ç½û1J$e08f4bc4-079d-4df5-8e05-483dafd8f6dd
+k
+java:S1444")Make this "public static res" field final(‹†68´¢ç½û1J$b89d95e4-c61b-4f32-807b-f09fc6b15ae6
+v
+java:S1444".Make this "public static startIdx" field final(Ê¯Ø×ıÿÿÿÿ8´¢ç½û1J$eb4cb9e0-ae0c-4dc9-8879-2052e3e58f94
+p
+java:S1444"-Make this "public static visited" field final(à¥ºÉ8µ¢ç½û1J$57b8668c-b8c9-408f-8e9c-f2fd97eb5c23
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŒêÕ&8¶¢ç½û1J$c3236ed0-a0b2-4167-8349-5e601a4bb795
+a
+java:S2386!"Make member "arr" "protected".(¨ô²8¯¥ç½û1J$bcce1b7f-3feb-420e-bc45-de0142682f40
+f
+java:S2386""Make member "res" "protected".(¢ò×Ãüÿÿÿÿ8¯¥ç½û1J$f29caff3-d90b-4516-b062-63f82be76fdd
+j
+java:S2386#""Make member "visited" "protected".(İäÔğüÿÿÿÿ8°¥ç½û1J$fbbf5a68-7da6-421a-b1eb-41372adc47bb
+k
+java:S2386*"#Make member "startIdx" "protected".(¬Ú¶¨ùÿÿÿÿ8±¥ç½û1J$be1a816f-eaa0-4907-b4d3-b20259685dbc
+m	java:S1066"+Replace this use of System.out by a logger.(Ğ‘Ã8³¥ç½û1J$e4e707cb-adc7-42d4-b281-6cf549249763
+r	java:S1068"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8³¥ç½û1J$8d5ed511-b1e7-4bed-ab84-6e69f68527f0
+b
+java:S1659b"Declare "y" on a separate line.(ñöšá8¹¥ç½û1J$1e2f363d-8174-4a32-9631-54176b4747a4

@@ -1,0 +1,17 @@
+
+›	java:S1351"YReduce the total number of break and continue statements in this loop to use at most one.(Œ›ËÒ8…—£2J$e5233e7f-cf85-496a-9635-eb7cf9c3db56
+_
+java:S16438"Use a StringBuilder instead.(±¤°8†—£2J$d6b90cde-54c1-432b-b5b9-72608cc38369
+_
+java:S1643A"Use a StringBuilder instead.(±¤°8†—£2J$8b2d8dff-5d61-4590-94b1-ce42aa746235
+_
+java:S1643J"Use a StringBuilder instead.(±¤°8†—£2J$0ce4ab2d-2b47-44e8-b936-eab41a7c1d67
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢Ì†Õ8‡—£2J$6373eed6-574c-48c6-a1ee-60f3dfcd0cc9
+d
+java:S1659"!Declare "max" on a separate line.(Üï¿Ñ8–˜£2J$44f27e86-f69d-4233-b943-4126889d86e8
+r	java:S106#"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8˜£2J$ca089f1a-d651-4198-b3e4-639eb3380e60
+m	java:S106$"+Replace this use of System.out by a logger.(Å¶áç8˜£2J$c7fb7bc6-2f4f-4ff4-93be-54cf3ea94eea
+•
+java:S3776("RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¬ Úì8˜£2J$8748e5a3-e73e-46cb-b21f-7a28f90bf6a0
+”
+java:S1871I"LThis branch's code block is the same as the block for the branch on line 64.(Ø¼©ıÿÿÿÿ8ØØ£2J$439ccbbc-a2de-49d0-a2c4-b5fcc696be2b

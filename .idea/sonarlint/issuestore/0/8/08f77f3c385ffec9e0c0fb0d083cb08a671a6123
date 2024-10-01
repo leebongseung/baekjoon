@@ -1,0 +1,52 @@
+
+
+java:S1104""MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8Õ«ùø1J$0cbcb7e7-6db9-4452-8758-a029324a33f5
+•
+java:S1104#"MMake e a static final constant or non-public and provide accessors if needed.(›“æËıÿÿÿÿ8Õ«ùø1J$686e6929-7e7b-4a2f-a4e8-f3785cfb89b4
+—
+java:S1104$"OMake lst a static final constant or non-public and provide accessors if needed.(ŸÑåâúÿÿÿÿ8Õ«ùø1J$29fd6ec7-d009-4263-8cb3-eddafa3d3f98
+š
+java:S1104%"WMake dijkstraArr a static final constant or non-public and provide accessors if needed.(„ŞÛµ8Õ«ùø1J$f5dbde0c-6ff8-48fe-81bb-aca6b033a986
+˜
+java:S1104&"UMake startNode a static final constant or non-public and provide accessors if needed.(ëâ¡¹8Õ«ùø1J$5e0603a6-fe13-41f6-86b9-1171e49b4522
+œ
+java:S1104'"TMake endNode1 a static final constant or non-public and provide accessors if needed.(¶¾õüÿÿÿÿ8Õ«ùø1J$d5739dc9-eb29-4efc-9d71-2923c9070b64
+œ
+java:S1104("TMake endNode2 a static final constant or non-public and provide accessors if needed.(ø­Î÷ıÿÿÿÿ8Õ«ùø1J$8422e275-4fbc-45f7-8894-b4bf0460829a
+›
+java:S1104)"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8Õ«ùø1J$ccfe2654-f89e-4461-a364-bca60578c413
+j
+java:S1444""'Make this "public static n" field final(ÓœşÚ8Õ«ùø1J$4552c023-ea6c-4911-952d-c13894845ee0
+o
+java:S1444#"'Make this "public static e" field final(›“æËıÿÿÿÿ8Õ«ùø1J$cf15e08d-f95a-4a10-a3b6-73866ae251a7
+q
+java:S1444$")Make this "public static lst" field final(ŸÑåâúÿÿÿÿ8Õ«ùø1J$5bb4d4b5-05d6-4d1d-b075-fddf68af7f46
+t
+java:S1444%"1Make this "public static dijkstraArr" field final(„ŞÛµ8Õ«ùø1J$ba7178ec-b99b-439f-86b9-d03a7568d318
+r
+java:S1444&"/Make this "public static startNode" field final(ëâ¡¹8Õ«ùø1J$3745b37f-c2d1-423d-b068-767eebeb679b
+v
+java:S1444'".Make this "public static endNode1" field final(¶¾õüÿÿÿÿ8Õ«ùø1J$0ccdfb87-1bc5-42fc-ad59-2d4a56885a9e
+v
+java:S1444(".Make this "public static endNode2" field final(ø­Î÷ıÿÿÿÿ8Õ«ùø1J$1c6171b6-85ac-4bb1-a587-20fedf06448f
+u
+java:S1444)"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8Õ«ùø1J$39186842-f637-492b-bc88-daba2749829e
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(îŸ©·úÿÿÿÿ8Õ«ùø1J$7186eddf-a8bb-4764-9a4b-e76fc5697e49
+[
+java:S1700"Rename field "node"(§ÕªÑıÿÿÿÿ8Õ«ùø1J$86169fba-8427-4d4b-89b3-ac69d9b0865e
+¡
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(áÂ¦ÿÿÿÿÿ8”Ö«ùø1J$56a76b5a-ac70-4501-96d9-359ab9238efa
+l
+java:S1659"$Declare "weight" on a separate line.(§ÕªÑıÿÿÿÿ8•Ö«ùø1J$3a5fbccd-a86a-4b8a-baf4-e80e1698a6e0
+•
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(œû¿Ø8˜Ö«ùø1J$a13023fe-310d-4ce7-b96b-9fb2a6f86af4
+j
+java:S23861""Make member "visited" "protected".(ãªÛÆşÿÿÿÿ8œÖ«ùø1J$366c0ac4-9205-48b0-8a51-a1ac5757f715
+a
+java:S23862"Make member "lst" "protected".(ìö¥8œÖ«ùø1J$e2942a96-4fb2-4884-8348-7d012f0e7dcc
+i
+java:S2386E"&Make member "dijkstraArr" "protected".(¾‚¿¼8ŸÖ«ùø1J$6b1070aa-646c-4c5f-a3a6-e344fc3d32c8
+m	java:S106]"+Replace this use of System.out by a logger.(Ù©È±8¡Ö«ùø1J$2e83128a-8c92-40ff-9e07-bbcc69f62127
+r	java:S106_"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¢Ö«ùø1J$f934829b-9626-4a84-ac31-4b8ffd6d1acd
+r	java:S106b"+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ8¢Ö«ùø1J$566e70d9-d05f-4729-9fba-12317cc468d7
+r	java:S106c"+Replace this use of System.out by a logger.(ì±æªıÿÿÿÿ8¢Ö«ùø1J$6e9bdcb0-54b2-4389-8b3f-84ced0d9e185

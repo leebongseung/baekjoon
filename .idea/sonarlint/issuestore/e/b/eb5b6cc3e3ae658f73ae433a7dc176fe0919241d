@@ -1,0 +1,31 @@
+
+
+java:S1104"VMake totalStair a static final constant or non-public and provide accessors if needed.(³ıŠúÿÿÿÿ8 Ñå›ğ1J$c65f01a2-0ebd-4835-89af-ed20a46c87fd
+ 
+java:S1104"XMake currentStair a static final constant or non-public and provide accessors if needed.(Ğ•Œƒûÿÿÿÿ8 Ñå›ğ1J$113efd99-b2c2-482e-9f6f-59eef2fb232c
+™
+java:S1104"WMake targetStair a static final constant or non-public and provide accessors if needed.(ñæ’(8 Ñå›ğ1J$33b2aad9-fd88-4fde-a23e-f41f57450b33
+”
+java:S1104"QMake upCnt a static final constant or non-public and provide accessors if needed.(°ô´–8 Ñå›ğ1J$084c1269-0322-4696-b948-ce7963eba46a
+–
+java:S1104"SMake downCnt a static final constant or non-public and provide accessors if needed.(¸ş8 Ñå›ğ1J$fbed0ce5-1dfd-4cb9-9260-50fd0fc56c59
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8 Ñå›ğ1J$1ad4d7c1-1c6e-4a04-a908-39503c72f6fe
+x
+java:S1444"0Make this "public static totalStair" field final(³ıŠúÿÿÿÿ8¡Ñå›ğ1J$666ddba0-b15a-47b9-a725-85f22734db6c
+z
+java:S1444"2Make this "public static currentStair" field final(Ğ•Œƒûÿÿÿÿ8¡Ñå›ğ1J$411e2435-05b3-4efd-83db-7bda81f25102
+s
+java:S1444"1Make this "public static targetStair" field final(ñæ’(8¡Ñå›ğ1J$ab5416d2-0ad9-4779-84f6-287831313a01
+n
+java:S1444"+Make this "public static upCnt" field final(°ô´–8¡Ñå›ğ1J$f1a55e9b-2fa2-467e-a0ba-82e25ff55362
+p
+java:S1444"-Make this "public static downCnt" field final(¸ş8¡Ñå›ğ1J$8f8d271c-9179-4ad4-be8a-ad29c68f297c
+u
+java:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8¡Ñå›ğ1J$6771b3a9-1c49-48ec-a5fe-315749ebebd7
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²¤­Î8¢Ñå›ğ1J$4c60ea57-2e06-4619-8574-55ecd8485740
+j
+java:S2386&""Make member "visited" "protected".(ñµÿøÿÿÿÿ8‡Òå›ğ1J$e146be2e-cd1e-456d-bc26-18e6d2873524
+r	java:S106)"+Replace this use of System.out by a logger.(í¹¾Œıÿÿÿÿ8ˆÒå›ğ1J$0d6bc8e6-29e2-4917-8521-66fa5ab1e4c6
+m	java:S106*"+Replace this use of System.out by a logger.(±¶Õò8ˆÒå›ğ1J$a68934ed-64da-4040-a61c-91c1964e876c
+~	java:S1256"<This block of commented-out lines of code should be removed.(¯Åõ¡8‹Òå›ğ1J$0f8f248a-52f5-44c8-9f9d-fb085ff46a83

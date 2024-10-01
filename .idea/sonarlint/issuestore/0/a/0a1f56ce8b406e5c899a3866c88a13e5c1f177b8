@@ -1,0 +1,9 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«ğ˜Ë8¿–‹ƒ2J$c63547a3-734c-4c6d-b7f5-395fdda72a18
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(œû¿Ø8ÿêœ‹ƒ2J$b9f96294-830e-44b1-9d6a-04b1e2d74986
+r	java:S106^"+Replace this use of System.out by a logger.(Îˆ£Ğøÿÿÿÿ8×Ÿ–‹ƒ2J$5008513c-1c57-47ec-99de-0ed545d78868
+œ
+java:S1210j"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ı£¬¤8ØŸ–‹ƒ2J$1cba1dff-b3ca-4435-a005-a792ff29a6ce
+f
+java:S1659b"#Declare "order" on a separate line.(¶ïŠ8ÙŸ–‹ƒ2J$7d9f9943-4dc5-4d83-9569-7c8d9a7c6e3d

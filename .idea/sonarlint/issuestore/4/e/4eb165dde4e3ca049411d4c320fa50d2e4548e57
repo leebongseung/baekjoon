@@ -1,0 +1,49 @@
+
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8²ì®ì1J$1fef9ee3-06e3-4d95-812f-51e98ee06561
+
+java:S1104 "MMake m a static final constant or non-public and provide accessors if needed.(–Åö8²ì®ì1J$a905e628-86b0-47a4-998c-994d276b9bd0
+’
+java:S1104!"OMake arr a static final constant or non-public and provide accessors if needed.(ôÄáÁ8²ì®ì1J$26327b53-8ebd-48e0-bf89-c0b4f674efcc
+—
+java:S1104""OMake res a static final constant or non-public and provide accessors if needed.(‚íª“øÿÿÿÿ8²ì®ì1J$544a0e8a-f977-4a76-b7c0-06c090313815
+j
+java:S1444"'Make this "public static n" field final(ÓœşÚ8Ÿ²ì®ì1J$8fcb6811-73c7-4fb7-8328-04e63daf840b
+j
+java:S1444 "'Make this "public static m" field final(–Åö8Ÿ²ì®ì1J$28c078cc-71bd-4ef6-9e16-70d49e0be5d8
+l
+java:S1444!")Make this "public static arr" field final(ôÄáÁ8Ÿ²ì®ì1J$82d25b11-710d-4c3e-9f11-3a0e35344728
+q
+java:S1444"")Make this "public static res" field final(‚íª“øÿÿÿÿ8Ÿ²ì®ì1J$caebc384-c90a-48fa-ae8c-b6c4a6fe8182
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢©³Ã8Ÿ²ì®ì1J$1efd10d0-fee9-49c8-a779-e2e398fa23ff
+›	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²ík8Ë²ì®ì1J$d5cb76ab-2cc2-42fe-b7b2-b83bbc0a1876
+›	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²ík8Ë²ì®ì1J$2dc5df9e-ac6f-4081-9937-b48024f28133
+›	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²ík8Ë²ì®ì1J$008faca7-2ab3-4d91-bbc6-797af4213f86
+›	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²ík8Ë²ì®ì1J$11942dbf-5ed1-4624-97c7-6d1593d4db79
+{
+java:S1854V"8Remove this useless assignment to local variable "redY".(Ë„§Æ8Ï²ì®ì1J$0e2c95d9-5299-470f-8dd4-75f532ccc87f
+{
+java:S1854U"8Remove this useless assignment to local variable "redX".(Üò¤Í8Ï²ì®ì1J$fb9eaef8-ac5a-4c56-9733-a9a8ae1415c7
+|
+java:S1854T"9Remove this useless assignment to local variable "blueY".(«òõŒ8Ï²ì®ì1J$f6710ce9-7a6e-46c3-aa39-55f7c6230147
+
+java:S1854S"9Remove this useless assignment to local variable "blueX".(¢æ›ıÿÿÿÿ8Ï²ì®ì1J$279309fd-8eb7-487a-9e31-8255e12df559
+r
+java:S1481S"*Remove this unused "blueX" local variable.(¢æ›ıÿÿÿÿ8Ó²ì®ì1J$9f2831e4-9f03-4593-aea8-45f4ab71a966
+m
+java:S1481T"*Remove this unused "blueY" local variable.(«òõŒ8Ó²ì®ì1J$1bb34ce2-bfd2-4c3a-b2ff-4f791c5ba554
+l
+java:S1481U")Remove this unused "redX" local variable.(Üò¤Í8Ô²ì®ì1J$b40d7b81-a1da-42db-9cad-e4d8975bae2f
+l
+java:S1481V")Remove this unused "redY" local variable.(Ë„§Æ8Ô²ì®ì1J$f65f6f2b-f286-476f-aff8-eca4dd4ffc29
+p	java:S108Y")Either remove or fill this block of code.(­·ä—ùÿÿÿÿ8Õ²ì®ì1J$f081b384-b3b4-40eb-baf8-415b072af5bc
+
+java:S1854g"7Remove this useless assignment to local variable "red".(Ş’Øèşÿÿÿÿ8Ö²ì®ì1J$27c5f786-1562-4cfd-8c69-6e32f56519f7
+{
+java:S1854f"8Remove this useless assignment to local variable "blue".(ğ›Æ8Ö²ì®ì1J$7650385b-5824-4313-a16d-3b1f9c02a45e
+l
+java:S1481f")Remove this unused "blue" local variable.(ğ›Æ8Ù²ì®ì1J$272530f5-c527-4fed-b5ce-b2187a992540
+p
+java:S1481g"(Remove this unused "red" local variable.(Ş’Øèşÿÿÿÿ8Ù²ì®ì1J$cde92166-4c67-4dcf-9da3-552682674e8c
+a
+java:S2386i"Make member "arr" "protected".(ÑúÓº8Ù²ì®ì1J$adae18ca-c2f2-4159-a110-a60d8c2c7502

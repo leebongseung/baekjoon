@@ -1,0 +1,19 @@
+
+—
+java:S1104"OMake map a static final constant or non-public and provide accessors if needed.(άϊµώϊÿÿÿÿ8Ϊοιο1J$68013ad9-934d-4eaf-aa31-95053a1d3b1d
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ρ£Δϊÿÿÿÿ8Ϊοιο1J$a740db35-7522-4214-b58a-74eaf685f8dc
+q
+java:S1444")Make this "public static map" field final(άϊµώϊÿÿÿÿ8Ϋοιο1J$c52d4a2b-9f2d-42c8-a555-5eae0a6df5a0
+u
+java:S1444"-Make this "public static visited" field final(Ρ£Δϊÿÿÿÿ8Ϋοιο1J$16854c48-e7f5-497d-8f4e-e5e47a6d1ab8
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Μ«ΖΦώÿÿÿÿ8άοιο1J$ddf84e86-78d0-4691-a62a-c45485c2ed7f
+
+java:S3824,"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(¶®α›ϋÿÿÿÿ8πιο1J$2c04bbf1-eb72-4c70-8552-9bc6d09e74bc
+‹
+java:S3824("HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ίτ·Π8πιο1J$a4448507-c96b-4961-997e-eb36c61052b6
+e
+java:S2386"Make this member "protected".(άϊµώϊÿÿÿÿ8πιο1J$16c10622-c74f-442d-9e8d-55c96b6ae8ae
+j
+java:S2386""Make member "visited" "protected".(γªΫΖώÿÿÿÿ8‘πιο1J$4e0fb686-52cf-4c39-a3bc-57837123c0e1
+r	java:S1066"+Replace this use of System.out by a logger.(Ί€‘³ψÿÿÿÿ8–πιο1J$64f6e568-4728-4cd8-92d0-70b2cfb58be7

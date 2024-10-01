@@ -1,0 +1,24 @@
+
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(æÙˆ8×¹ßì€2J$5d5e413d-e8e2-4bf6-8df5-d6cfe3404189
+
+java:S1104"MMake m a static final constant or non-public and provide accessors if needed.(æÙˆ8Ø¹ßì€2J$9288b5ce-07f9-4fa5-a9d6-d29f21d54be2
+–
+java:S1104"NMake ch a static final constant or non-public and provide accessors if needed.(å””Ÿşÿÿÿÿ8Ø¹ßì€2J$f81786c7-445c-498e-a527-02427cab2ef4
+’
+java:S1104"OMake res a static final constant or non-public and provide accessors if needed.(ØıÂÕ8‡—áì€2J$73b3d96e-6d87-4b77-b48d-6299a3e08f05
+j
+java:S1444"'Make this "public static n" field final(æÙˆ8Ø¹ßì€2J$00ebeedd-c9dd-4322-bb43-8b339c453a1f
+j
+java:S1444"'Make this "public static m" field final(æÙˆ8Ø¹ßì€2J$a20b439f-f07e-4c19-be01-015c416908bd
+p
+java:S1444"(Make this "public static ch" field final(å””Ÿşÿÿÿÿ8Ø¹ßì€2J$7b6ee0cc-5c1f-44be-82ec-addbbe3fe8cd
+l
+java:S1444")Make this "public static res" field final(ØıÂÕ8‡—áì€2J$8cec6f54-9bc8-42c4-9ecb-8cf8f5b3bb17
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Şïß§ÿÿÿÿÿ8Ù¹ßì€2J$dca8bc6d-ef24-4722-89c8-33ac5e19ee9d
+b
+java:S1659"Declare "m" on a separate line.(æÙˆ8á¹ßì€2J$49eeced0-b9d9-499e-86e0-3e54a75bffc3
+e
+java:S2386"Make member "ch" "protected".(·´İ‹øÿÿÿÿ8å¹ßì€2J$d582e109-2fa1-4bef-acfd-0f275ebefa5c
+r	java:S106("+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8æ¹ßì€2J$fac279fb-57e1-4a0a-a1d3-b7dc04d0e190
+~	java:S125$"<This block of commented-out lines of code should be removed.(áæ©Ü8æ¹ßì€2J$6f1edbe6-c640-4d67-a4f5-1be38a9cd71f

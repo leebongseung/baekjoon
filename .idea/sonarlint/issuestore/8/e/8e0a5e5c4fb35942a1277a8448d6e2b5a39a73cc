@@ -1,0 +1,9 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ë¼°á8ÿ…¥ñ‚2J$ba4eb742-6131-4d6d-b456-b079984fa761
+˜
+java:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¹°şûÿÿÿÿ8†¥ñ‚2J$2263ff0c-3fc7-4f56-bb6c-bbba1acf9789
+i	java:S131(""Add a default case to this switch.(Ô´ØÕıÿÿÿÿ8¡†¥ñ‚2J$9a7400a0-1727-4f82-9089-415d2251c0a7
+“
+java:S1301("KReplace this "switch" statement by "if" statements to increase readability.(Ô´ØÕıÿÿÿÿ8¡†¥ñ‚2J$58441cf5-e3ef-47f3-b944-b5a2891d68de
+l	java:S1069"+Replace this use of System.out by a logger.(éör8£†¥ñ‚2J$de76f27c-fefd-485e-ad7d-e2f37f471ee8
+r	java:S106="+Replace this use of System.out by a logger.(›ËÖøşÿÿÿÿ8£†¥ñ‚2J$2fa779d0-f85e-4c13-86f9-53beac13782d

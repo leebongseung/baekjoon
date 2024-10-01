@@ -1,0 +1,23 @@
+
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ρ£Δϊÿÿÿÿ8¤λοσ1J$7d1b8678-db87-4488-b48b-f8971fa480c7
+—
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(Ήυύϊÿÿÿÿ8¥λοσ1J$e1c128c7-276c-4c6d-a732-5bf89b6f1ea0
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ΣώΪ8¥λοσ1J$baf8411e-8292-4ca7-abd3-d0a51a595e2e
+—
+java:S1104"OMake res a static final constant or non-public and provide accessors if needed.(‚νª“ψÿÿÿÿ8¥λοσ1J$ba66afdb-dfe0-478a-bb6e-97b1571cbda3
+u
+java:S1444"-Make this "public static visited" field final(Ρ£Δϊÿÿÿÿ8¥λοσ1J$b3929402-5e66-44dd-80fa-a9e41845eb8e
+q
+java:S1444")Make this "public static arr" field final(Ήυύϊÿÿÿÿ8¥λοσ1J$4d3f25a3-682e-4861-a490-90dfa14c4fa0
+j
+java:S1444"'Make this "public static n" field final(ΣώΪ8¥λοσ1J$f9eb32ba-b3b9-4f8a-8a3a-edbfb84f3fca
+q
+java:S1444")Make this "public static res" field final(‚νª“ψÿÿÿÿ8¥λοσ1J$b6dbde02-477f-43f6-8698-2111c359ae64
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ΖΒ8¦λοσ1J$80587182-7de4-4b98-93c5-66c0719ce9d3
+_
+java:S23868"Make member "arr" "protected".(λr8νλοσ1J$0e57e84d-ecef-49f3-811d-5d8fed73bd5e
+j
+java:S23869""Make member "visited" "protected".(γªΫΖώÿÿÿÿ8νλοσ1J$4ea40bd5-35ab-43e6-8962-00ba8c9af721
+r	java:S106@"+Replace this use of System.out by a logger.(ΈρΩόÿÿÿÿ8ολοσ1J$f0d1ec71-cfc0-4ca6-81d6-5b383bb47907

@@ -1,0 +1,17 @@
+
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8ßÀ†¤Š2J$c0794990-ea76-4442-bf10-b671c13e1384
+’
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(Š÷ö˜8ßÀ†¤Š2J$ccb21853-7ec3-40e9-930b-fa8bd855d10d
+j
+java:S1444"'Make this "public static n" field final(ÓœşÚ8àÀ†¤Š2J$2eacee41-87de-4a55-b9ed-5cd070964cbe
+l
+java:S1444")Make this "public static arr" field final(Š÷ö˜8àÀ†¤Š2J$a278bc00-f806-48b4-82b7-34d6c5728929
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ó­Îçûÿÿÿÿ8áÀ†¤Š2J$8bd663e7-5342-46b2-8c9e-1c581ea10a07
+`
+java:S2386"Make member "arr" "protected".(öæ`8üÀ†¤Š2J$0bc77eeb-c996-41d6-b88d-19164e9a122e
+d	java:S131""Add a default case to this switch.(×Œêİ8€Á†¤Š2J$aeb1f9c1-475f-4438-b3fe-6b7e38d5f8fc
+
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(×Œêİ8‚Á†¤Š2J$03982850-91b8-4258-8327-d8c153249ba0
+~
+java:S1128"6Remove this unused import 'java.util.StringTokenizer'.(ÈÄ¬ñşÿÿÿÿ8ƒÁ†¤Š2J$d48ec10f-9f4f-4383-946c-3d8fedb20698

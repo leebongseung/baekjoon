@@ -1,0 +1,35 @@
+
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(Ş‘®š8ßÙÊ2J$625ea988-8fcd-425a-ae86-0964080ea07f
+
+java:S1104"MMake r a static final constant or non-public and provide accessors if needed.(Ş‘®š8ßÙÊ2J$313eb0eb-55df-431e-bcc3-df5e94670d1b
+
+java:S1104"MMake q a static final constant or non-public and provide accessors if needed.(Ş‘®š8ßÙÊ2J$9b75bead-152d-4155-9428-30ae02f95bf4
+Ÿ
+java:S1104"WMake subtreeSize a static final constant or non-public and provide accessors if needed.(»ÜÃŸùÿÿÿÿ8ßÙÊ2J$3daefbc6-eae8-423c-aee7-57ace8e73a40
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8ßÙÊ2J$86a65af6-a002-401c-8dcf-d55cd56853d0
+—
+java:S1104"OMake lst a static final constant or non-public and provide accessors if needed.(˜ÀãØıÿÿÿÿ8ßÙÊ2J$ac2b7193-6a56-4f90-836a-bd93507bf660
+j
+java:S1444"'Make this "public static n" field final(Ş‘®š8àÙÊ2J$ff5f66ee-8ec9-4720-9831-fbff4aeb5175
+j
+java:S1444"'Make this "public static r" field final(Ş‘®š8àÙÊ2J$be657538-4a09-489b-9029-ccea46c8517b
+j
+java:S1444"'Make this "public static q" field final(Ş‘®š8àÙÊ2J$49996f58-deca-4121-abfd-eccf8934148e
+y
+java:S1444"1Make this "public static subtreeSize" field final(»ÜÃŸùÿÿÿÿ8àÙÊ2J$997fc860-8e27-4e58-8c52-b09cb184b722
+u
+java:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8àÙÊ2J$3a9eb528-a92d-4a77-8aad-6728e0c669f9
+q
+java:S1444")Make this "public static lst" field final(˜ÀãØıÿÿÿÿ8àÙÊ2J$8a57d80e-462c-45b8-9747-6ce31ffa1763
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â¦³Î8áÙÊ2J$3e2c8b6b-6f24-4e31-bb91-6ae4eed639e5
+
+java:S1659">Declare "r" and all following declarations on a separate line.(Ş‘®š8èÙÊ2J$485b516b-61b8-476a-98ec-180fc9a0e18c
+m	java:S106"+Replace this use of System.out by a logger.(ûÄÏ8îÙÊ2J$a2b028f8-ca21-4051-855a-0cb6920c8f38
+f
+java:S2386"Make member "lst" "protected".(½œéáøÿÿÿÿ8ğÙÊ2J$8b47abb5-91ba-4c71-b085-47676dadd252
+i
+java:S2386*"&Make member "subtreeSize" "protected".(•†™Ä8òÙÊ2J$cf9d7a35-0150-40a8-a210-8a0c96766488
+e
+java:S2386+""Make member "visited" "protected".(ÊŒ°ò8óÙÊ2J$e8bd2475-a5c6-41d6-af70-0a60c196ce8e

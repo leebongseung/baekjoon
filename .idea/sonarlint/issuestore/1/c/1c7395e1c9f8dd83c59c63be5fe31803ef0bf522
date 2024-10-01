@@ -1,0 +1,8 @@
+
+ 	java:S135W"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8¢Ğ´ïù1J$1e53302e-ba37-4617-a1eb-2389f77d8130
+”	java:S101!"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ»Åµûÿÿÿÿ8¤Ğ´ïù1J$8fb83f1f-1efa-4504-bc00-0fbfb0fab497
+b
+java:S16592"Declare "y" on a separate line.(ñöšá8öÑ´ïù1J$2c48f5b9-d8ba-4e2c-88ef-58f7749fc445
+•
+java:S37764"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(œû¿Ø8ò…Ïïù1J$7308ba71-64ff-48d0-bf18-880fcba26be3
+s	java:S106„"+Replace this use of System.out by a logger.(ûÛÏçùÿÿÿÿ8ŒÏÔïù1J$88be8941-dac6-4ed7-919c-5d63c32e876d

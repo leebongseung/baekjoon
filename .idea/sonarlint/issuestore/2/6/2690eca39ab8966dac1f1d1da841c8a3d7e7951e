@@ -1,0 +1,9 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ğ†‡8ŠÚòÑï1J$cf492361-f480-470a-a4b9-2cc99a83356d
+›
+java:S1602%"SRemove useless curly braces around statement and then remove useless return keyword(ñÌÇõÿÿÿÿÿ8·ÛòÑï1J$f6e6a487-86a7-45c9-bbd4-ff9420346153
+•
+java:S1602*"SRemove useless curly braces around statement and then remove useless return keyword(èİ´L8¸ÛòÑï1J$871c5261-247e-4a94-b51e-dd5015a71d53
+m	java:S106@"+Replace this use of System.out by a logger.(ïµòÆ8¼ÛòÑï1J$78547473-b308-48a5-a7fb-13fbbcf03f64
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¾ÛòÑï1J$e8b43918-b55f-40ad-8486-b9f4823d7fa6
