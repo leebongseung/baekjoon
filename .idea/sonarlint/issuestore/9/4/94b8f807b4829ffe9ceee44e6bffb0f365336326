@@ -1,0 +1,30 @@
+
+›	java:S135?"YReduce the total number of break and continue statements in this loop to use at most one.(â®ÿÛ8ÖÅ‚ÿ1J$242299f3-8f18-4c15-a78a-73e28f944364
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8ØÅ‚ÿ1J$a506af53-93fa-410b-90b2-f9d18088390b
+š
+java:S1104"WMake currentSize a static final constant or non-public and provide accessors if needed.(ÎÖ¹ò8ØÅ‚ÿ1J$faa396a0-e4c8-4931-9ed6-ad493c9b3a96
+—
+java:S1104"OMake lst a static final constant or non-public and provide accessors if needed.(ÿ¤óšùÿÿÿÿ8ØÅ‚ÿ1J$09c7d4b6-8be4-46d7-b3eb-90cca95a455c
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8Â´¥‚ÿ1J$6e19d1b9-5ec7-42fb-adf4-17ad5810b562
+—
+java:S1104"OMake set a static final constant or non-public and provide accessors if needed.(¹÷şíùÿÿÿÿ8ÁıÎ‚ÿ1J$e2438c11-a57b-43cd-aa37-95fd89a5ebf1
+j
+java:S1444"'Make this "public static n" field final(ÓœşÚ8ÙÅ‚ÿ1J$c79e7f69-73d5-4879-82fe-7c88258888ea
+t
+java:S1444"1Make this "public static currentSize" field final(ÎÖ¹ò8ÙÅ‚ÿ1J$0ace5b79-80a3-45b4-a726-34617bb05dd8
+q
+java:S1444")Make this "public static lst" field final(ÿ¤óšùÿÿÿÿ8ÙÅ‚ÿ1J$c746687a-f3d6-41a8-b36d-3a1db84471c1
+u
+java:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8Ã´¥‚ÿ1J$cdae1b83-7bbe-4e2e-ad5f-d461872dc328
+q
+java:S1444")Make this "public static set" field final(¹÷şíùÿÿÿÿ8ÁıÎ‚ÿ1J$c3e5befc-7d09-47c4-85b8-b0bb44493605
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä¢äõ8ÚÅ‚ÿ1J$3e06f98f-f90d-4973-b6f6-de8cb7ce0c8a
+f
+java:S2386!"Make member "lst" "protected".(Ì¥¨šüÿÿÿÿ8çÆ‚ÿ1J$f864a8c3-b3db-49a7-a434-bcd34291b5eb
+a
+java:S2386""Make member "set" "protected".(¼ãÍÅ8‰şÎ‚ÿ1J$1671f984-c3a7-4dd1-b8c5-f4c9912a16f9
+e
+java:S2386#""Make member "visited" "protected".(ÊŒ°ò8Üğ¥‚ÿ1J$7518a666-b8eb-4337-9c14-648d2443bbb2
+m	java:S106-"+Replace this use of System.out by a logger.(Öû³œ8ñ‰’‚ÿ1J$e14ad4f5-8198-4efd-b75c-9fa00105a71c

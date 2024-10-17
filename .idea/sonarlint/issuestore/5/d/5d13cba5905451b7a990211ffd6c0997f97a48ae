@@ -1,0 +1,11 @@
+
+—
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(τ‚ξÿÿÿÿÿ8ςησ°ζ1J$5b5b0649-7987-47b6-9834-308c65e587cd
+q
+java:S1444")Make this "public static arr" field final(τ‚ξÿÿÿÿÿ8σησ°ζ1J$657f7bba-7c19-4d49-962d-b7b1d66904ee
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘ΐΤΗ8τησ°ζ1J$b096cfa1-7f75-47f1-9db6-f9d126538826
+e
+java:S2386"Make this member "protected".(τ‚ξÿÿÿÿÿ8ϋησ°ζ1J$524d66f7-a33d-4de3-8408-1a2376036bc9
+r	java:S106!"+Replace this use of System.out by a logger.(‘°Ϊ…όÿÿÿÿ8θσ°ζ1J$a125c595-382c-473b-a5a8-029047302300
+i
+java:S1128"&Remove this unused import 'java.util'.(Ξ€Ω8‚θσ°ζ1J$8c8c9105-36e8-40c8-8587-0b567f71e56b

@@ -1,0 +1,40 @@
+
+˜	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å˜¬Àşÿÿÿÿ8”¾·íğ1J$b6f0b660-8976-491a-8aa3-7011fd88d97e
+’
+java:S1104."OMake arr a static final constant or non-public and provide accessors if needed.(Š÷ö˜8•¾·íğ1J$a09457fe-8057-43eb-97c6-a1d9aaa10083
+
+java:S1104/"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8•¾·íğ1J$f3e59d42-355f-4494-ae47-7389717c0cb6
+–
+java:S11040"SMake visited a static final constant or non-public and provide accessors if needed.(à¥ºÉ8•¾·íğ1J$ae1d025c-ddc9-49f1-ac82-f1799130bb5a
+™
+java:S11041"VMake currentIdx a static final constant or non-public and provide accessors if needed.(ë‰í8•¾·íğ1J$a154c4e8-6d0b-4aa3-b657-8c66554137f1
+˜
+java:S11042"UMake targetIdx a static final constant or non-public and provide accessors if needed.(˜Áùª8•¾·íğ1J$e07484c4-cb22-4366-8415-2a80e2a2cf58
+l
+java:S1444.")Make this "public static arr" field final(Š÷ö˜8•¾·íğ1J$6a482932-fd3c-46ef-84c9-c2ac16e8f683
+j
+java:S1444/"'Make this "public static n" field final(ÓœşÚ8•¾·íğ1J$4818f504-d8fa-4706-88f8-8e7e3467c0ec
+p
+java:S14440"-Make this "public static visited" field final(à¥ºÉ8–¾·íğ1J$c9867f97-395b-41af-b95e-0a354b013a1a
+s
+java:S14441"0Make this "public static currentIdx" field final(ë‰í8–¾·íğ1J$50b47662-722c-4058-8373-aab181081fdb
+r
+java:S14442"/Make this "public static targetIdx" field final(˜Áùª8–¾·íğ1J$8e499e89-a43a-4bca-ad22-5fc1704899c1
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ò¡ıÿÿÿÿ8–¾·íğ1J$194dbf0f-c8ad-44ca-961c-50f91d2d78af
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãä… 8¨¿·íğ1J$0070d90a-e6a7-4379-bf0c-1c9025865f3a
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğ«É¯ıÿÿÿÿ8¨¿·íğ1J$02f81c70-97ff-43ae-ac4f-d40f0f5f749d
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê­áü8¨¿·íğ1J$098ee217-09b1-4b33-9b85-baaccc1a6260
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•¥‡Æøÿÿÿÿ8¨¿·íğ1J$4079e23b-1256-4e60-8d84-4b6af289f368
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–«ˆñ8¨¿·íğ1J$1958fe6c-7396-444f-ba17-3e1967400757
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–Åâúÿÿÿÿ8¨¿·íğ1J$f9094d76-d5d4-4559-b433-d9f1e0f49e90
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(á†ïğøÿÿÿÿ8©¿·íğ1J$7808f691-1e28-42da-b692-76d554376225
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(èö¥ù8©¿·íğ1J$baa5f7fe-6350-46f5-a418-89e44a8c94e2
+`
+java:S23869"Make member "arr" "protected".(öæ`8®¿·íğ1J$532b1ec6-1985-4d2c-bdb3-e5113fe59a85
+j
+java:S2386:""Make member "visited" "protected".(÷Œ©Ùøÿÿÿÿ8®¿·íğ1J$1d83795f-a6f7-4d92-aba2-6c1ac9fa5d8b
+m
+java:S2386;"%Make member "currentIdx" "protected".(ÔÉ¹ıÿÿÿÿ8®¿·íğ1J$f83bbcac-55a8-462b-a1a5-4201f9bc895f
+g
+java:S2386<"$Make member "targetIdx" "protected".(é™Ş‚8¯¿·íğ1J$497f58ab-c2a9-44ac-8328-da54c8bef85a
+m	java:S106F"+Replace this use of System.out by a logger.(î³ñŒ8Ô‹¹íğ1J$2cc339db-5f4b-4515-b6ec-12265c1d6eca

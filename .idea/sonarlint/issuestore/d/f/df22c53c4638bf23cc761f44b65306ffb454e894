@@ -1,0 +1,37 @@
+
+
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÿ¾µ¹8Í¹ÿò1J$4faa5af9-2310-4a2b-b57a-d4d5d9a908d7
+•
+java:S1104"MMake m a static final constant or non-public and provide accessors if needed.(·££‰şÿÿÿÿ8Î¹ÿò1J$bc4d2c99-e98d-4155-8e13-a1dfd3fdcaf7
+•
+java:S1104"MMake x a static final constant or non-public and provide accessors if needed.(³Ï¹úÿÿÿÿ8Î¹ÿò1J$ea82d82d-29d8-46a3-a919-06bdc8ab711d
+œ
+java:S1104"TMake distance a static final constant or non-public and provide accessors if needed.(‚©¨ûÿÿÿÿ8Î¹ÿò1J$7461f721-1c68-47c9-be62-3a00eff717ca
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ8Î¹ÿò1J$a3b255bf-bd23-4ccf-b0d4-8eccec25240f
+—
+java:S1104"OMake lst a static final constant or non-public and provide accessors if needed.(èá¥õùÿÿÿÿ8Î¹ÿò1J$0bc5b1bd-7af8-4a80-874b-58b6c0a681a0
+j
+java:S1444"'Make this "public static n" field final(ÿ¾µ¹8Î¹ÿò1J$16fda1d2-eb78-4092-ba3e-994e2b299230
+o
+java:S1444"'Make this "public static m" field final(·££‰şÿÿÿÿ8Î¹ÿò1J$0cc7c2ff-bb14-4f0b-a47e-164eaacbf8f2
+o
+java:S1444"'Make this "public static x" field final(³Ï¹úÿÿÿÿ8Ï¹ÿò1J$18d7145e-0fa7-4bdb-b72e-ff6741d85c50
+v
+java:S1444".Make this "public static distance" field final(‚©¨ûÿÿÿÿ8Ï¹ÿò1J$d0b8f79a-dcbe-4092-9e3a-8e010730977e
+u
+java:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ8Ï¹ÿò1J$4ccfbb2b-e169-405e-a177-ebb38f4e1945
+q
+java:S1444")Make this "public static lst" field final(èá¥õùÿÿÿÿ8Ï¹ÿò1J$a4a1a3bd-d0b9-471c-ada3-aafae862053d
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æÚ˜®8Ğ¹ÿò1J$a524625a-8a83-47e2-b5f7-e45c3bf18f00
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(œû¿Ø8×¹ÿò1J$5e7ab8f2-45a1-4d5d-a10c-631508415a16
+f
+java:S2386%"#Make member "distance" "protected".(­±Ó×8Û¹ÿò1J$9367143a-69e5-4b6e-948f-37e48670413e
+f
+java:S2386-"Make member "lst" "protected".(½œéáøÿÿÿÿ8Ü¹ÿò1J$3aaddfc0-de57-411e-ae85-649c0ef4672f
+j
+java:S2386A""Make member "visited" "protected".(ãªÛÆşÿÿÿÿ8ß¹ÿò1J$7e691e29-0e83-4e2d-af0e-86369794acd2
+›
+java:S1602D"SRemove useless curly braces around statement and then remove useless return keyword(òÙíşÿÿÿÿ8à¹ÿò1J$17498714-c800-42be-91c3-01f5834126c6
+r	java:S106c"+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8â¹ÿò1J$e21ce8e8-7446-4ed0-8fbd-ac141ef5c5cb

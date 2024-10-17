@@ -1,0 +1,29 @@
+
+—
+java:S1104"OMake map a static final constant or non-public and provide accessors if needed.(ÃÂ‚€üÿÿÿÿ8ÉŞäî1J$9ccf960c-6373-41e0-8358-a30dd007b737
+—
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(ê°ÉØøÿÿÿÿ8ÊŞäî1J$008220e3-abfd-4c66-ba88-8178441a5fee
+š
+java:S1104"RMake idxCnt a static final constant or non-public and provide accessors if needed.(ÈÎ…úÿÿÿÿ8®™òäî1J$6bc3baaa-5990-4c69-a7cd-910341867948
+
+java:S1104"MMake f a static final constant or non-public and provide accessors if needed.( €`8ÊŞäî1J$cb0017b2-c2f5-4f42-ae14-225e13cbe0c1
+—
+java:S1104"OMake idx a static final constant or non-public and provide accessors if needed.(Õ©åúÿÿÿÿ8ÊŞäî1J$f98d544d-53fc-45f2-b57e-6c242ab1f394
+q
+java:S1444")Make this "public static map" field final(ÃÂ‚€üÿÿÿÿ8ÊŞäî1J$af9c4b5e-e192-4bb3-b9a6-3fba51c1abda
+q
+java:S1444")Make this "public static arr" field final(ê°ÉØøÿÿÿÿ8ÊŞäî1J$1d641c1a-7e9b-444f-ad9c-89866cb6c0fd
+t
+java:S1444",Make this "public static idxCnt" field final(ÈÎ…úÿÿÿÿ8¯™òäî1J$7ed7c59b-8335-4d03-bcb2-8b81e5bc89b5
+i
+java:S1444"'Make this "public static f" field final( €`8ËŞäî1J$ec7bcd8d-d7fe-422b-aa5c-88025734a007
+q
+java:S1444")Make this "public static idx" field final(Õ©åúÿÿÿÿ8ËŞäî1J$ebea2909-fc86-4024-9147-1d98df845702
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê–ºÁùÿÿÿÿ8ÌŞäî1J$f6b4a1ae-eade-4da7-93ad-e9ed1b4a5ea1
+m	java:S106"+Replace this use of System.out by a logger.(ûÄÏ8üŞäî1J$d2ea759b-851e-4b5e-8076-3f12c1704fc3
+f
+java:S2386 "Make member "map" "protected".(Í÷½ôøÿÿÿÿ8şŞäî1J$bf959308-4cbc-43f8-b37b-ee6a45ac549f
+a
+java:S2386!"Make member "arr" "protected".(èÙ­ª8ÿŞäî1J$eebbe1a5-73eb-4b43-bf98-abfaac888071
+i
+java:S2386""!Make member "idxCnt" "protected".(ªÈµäşÿÿÿÿ8àšòäî1J$7c9a5ba1-c8d6-439e-a6bb-0637d328b511

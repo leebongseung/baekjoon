@@ -1,0 +1,44 @@
+
+™	java:S135|"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿJ$441a7220-f4d3-40e7-a7d6-e4c824db8b90
+‘	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚óÂùÿÿÿÿJ$218e7dd1-c89e-41d4-ba68-6801c5b3c528
+‘	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚óÂùÿÿÿÿJ$3b3eee2d-6567-4309-9728-a90508582bf0
+Œ	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏşšœJ$1c265563-8ea9-40ba-97d4-d417f7799c76
+‹	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êâJ$d9ff9e1a-f8fd-4ddb-8c75-d6f1044cbe1a
+Œ	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èü”ÉJ$e145aea3-a844-4cb3-8242-f4b721717bf2
+‘	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„àíèùÿÿÿÿJ$731ad959-91ac-4d79-96a9-40b5a9a1ba3d
+‹	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¥İ/J$71d1de39-2341-4e53-bd26-31805fb617a9
+Š	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÆ J$ba2f04f5-ac25-4921-8566-43479736dff9
+’	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÌäÈùÿÿÿÿJ$d9745838-4204-4c7f-a76f-57fddb4cea7a
+	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§çÆÌJ$79c939d4-e498-4780-8373-d6f2f026e6a2
+‰
+java:S1104""MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚJ$7b3cae03-664f-47bf-a663-713911e001f1
+‰
+java:S1104#"MMake m a static final constant or non-public and provide accessors if needed.(–ÅöJ$209db104-8b79-43b3-846b-4bd09d9d1a77
+‹
+java:S1104$"OMake arr a static final constant or non-public and provide accessors if needed.(ôÄáÁJ$873454eb-d69b-4c12-84cf-38bc85c9416d
+‹
+java:S1104%"OMake min a static final constant or non-public and provide accessors if needed.(ÈıúÙJ$635477fd-fd71-4c2d-aea5-36c4e4290c57
+c
+java:S1444""'Make this "public static n" field final(ÓœşÚJ$42960f0c-7394-4d5c-a684-dbc7f269d87f
+c
+java:S1444#"'Make this "public static m" field final(–ÅöJ$6e28c68f-078a-4709-a63f-e1974d2c6eb6
+e
+java:S1444$")Make this "public static arr" field final(ôÄáÁJ$e1588657-c859-4d67-ae93-2149aeee0403
+e
+java:S1444%")Make this "public static min" field final(ÈıúÙJ$fbbead03-db6d-4e72-a0ed-9db2cca11eee
+ˆ	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì“¼J$ed8dc91d-8513-4d50-bea7-a73121b4c9cc
+”	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²íkJ$3bdaba99-31a1-4ef7-88ae-b2d072c558d4
+”	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²íkJ$21feb073-db79-4688-8275-7a9513d54c01
+”	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²íkJ$8a43acbf-b1d9-4f4e-a167-a1e780360a12
+”	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢²íkJ$2a77e334-d3b3-44a1-9845-8eea6b9604e1
+“
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.(‚óÂùÿÿÿÿJ$f4a954f9-c3c0-4647-87be-ac666738a02d
+[
+java:S2386¶"Make member "arr" "protected".(ÑúÓºJ$374447df-c855-4981-be95-66b86fa3b0db
+g	java:S106Ê"+Replace this use of System.out by a logger.(”ÛÊ–J$0a6030f5-7f69-465d-9879-f5bc72e4c0e7
+ˆ
+java:S1128"GRemove this unused import 'javax.swing.plaf.basic.BasicToggleButtonUI'.(ñóÉÎøÿÿÿÿJ$f33f657b-4136-4dbb-98d3-99d666304cfa
+y
+java:S1128"8Remove this unused import 'java.rmi.ConnectIOException'.(š¾¹¿øÿÿÿÿJ$dc85263b-b21f-4831-a6fb-3d35d5299bf8
+‡
+java:S6541;"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 97 to 64, Complexity from 34 to 14, Nesting Level from 6 to 2, Number of Variables from 21 to 6.(‚óÂùÿÿÿÿJ$2aa5c436-40d4-499e-a62b-1e7aea0fa151

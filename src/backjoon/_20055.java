@@ -1,127 +1,56 @@
 package backjoon;
 
-import javax.lang.model.SourceVersion;
 import java.awt.image.renderable.RenderableImage;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.StringTokenizer;
 
-/**
- * 시작 시간 : 4시 35분
- * 종료 시간 : ??
- * <p>
- * 문제분석
- * - 길이가 2N인 컨베이어 벨트
- * - 위쪽 N( 1~ N번호)
- * - 아래쪽 N(2N ~ N+1)
- * 벨트가 회전함ㄴ 1~2N-1 번 까지 순서대로 회전한다.
- * - i번째 내구도는 A_i임.
- * - 올리는 위치 : 2N -> 1로 가는 과정
- * - 내리는 위치 : N -> N+1로 가는 과정
- * <p>
- * 1. 벨트가 로봇과 함께 한 칸 회전
- * 2. 가장 먼저 올라간 로봇 부터 회전 방향으로 한칸 이동, 회전 못하면 가만히
- * - 이동 조건
- * 1. 해당 위치에 로봇이 없거나, 내구도가 1 이상 남아있음.
- * 3. 올리는 위치에 내구도가 0이 아니면 로봇 올리기
- * 4. 내구도가 0인 칸의 개수가 K개 라면 과정 종료하기
- * 5. 반복하기
- * <p>
- * 이해한 내용
- * 1. 올리는 위치는 1, 2N, 2N-1, ... , 2 순으로 역방향
- * 2. 내리는 위치는 N, N-1, N-2, ... N+1 순으로 역방향
- */
+/*  시작 시간 : 9시 5분
+*   종료 시간 :
+* */
 public class _20055 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int n = Integer.parseInt(st.nextToken()); // 2n개 주어짐.
         int k = Integer.parseInt(st.nextToken());
-        int[] arr = new int[n * 2];
-        boolean[] visited = new boolean[n * 2];
-        st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < 2 * n; i++)
-            arr[i] = Integer.parseInt(st.nextToken());
+        List<Integer> topArr = new LinkedList<>(); // 올리는 위치 ,i 번째 칸의 내구도, 1칸씩 이동 => 마지막인덱스를 젤앞으로 이동시키면 됨
+        List<Integer> bottomArr = new LinkedList<>(); // 내리는 위치, i번째 칸의 내구도, 1칸씩 이동 => 위와 동일
 
-        // 역방향으로 한칸씩 전진함.
-        int upPoint = 0;
-        int downPoint = n;
+        List<Boolean> isTopRobotArr = new LinkedList<>();
+        List<Boolean> isBottomRobotArr = new LinkedList<>();
+        // index 는 한칸씩 계속 이동함.
+        /*
+        * 1. 올리는 위치 2N -> 1
+        * 2. 내리는 위치 N -> N+1
+        * 2. 가장 먼저 벨트에 올라간 로봇부터, 벨트가 회전하는 방향으로 한 칸 이동할 수 있다면 이동한다. 만약 이동할 수 없다면 가만히 있는다
+        *   2-1.로봇이 이동하기 위해서는 이동하려는 칸에 로봇이 없으며, 그 칸의 내구도가 1 이상 남아 있어야 한다.
+        * 3. 올리는 위치에 있는 칸의 내구도가 0이 아니면 올리는 위치에 로봇을 올린다.
+        * 4.내구도가 0인 칸의 개수가 K개 이상이라면 과정을 종료한다. 그렇지 않다면 1번으로 돌아간다.
+        * */
 
-        Queue<Integer> robot = new LinkedList<>();
-        int res = 0;
-        while (true) {
-            res++;
-            // 1. 벨트 한칸씩 회전하기
-            upPoint = upPoint - 1 < 0 ? ((2 * n) - 1) : upPoint - 1;
-            downPoint = downPoint - 1 < 0 ? ((2 * n) - 1) : downPoint - 1;
-
-            // 2. 로봇들을 회전 방향으로 한칸 씩 전진.
-            for (int i = 0; i < robot.size(); i++) {
-                int curRot = robot.poll();
-                visited[curRot] = false;
-
-                int nextRot = (curRot + 1) % (n * 2);
-                visited[nextRot] = true;
-                robot.add(nextRot);
-                arr[nextRot]--;
-            }
-
-            // 3. 로봇들을 회전 방향으로 한칸 씩 전진.
-            for (int i = 0; i < robot.size(); i++) {
-                int curRot = robot.poll();
-                visited[curRot] = false;
-
-                // 로봇이 이미 떨어지는 구간에 도달 했을 경우
-                if (curRot == downPoint) {
-                    continue;
-                }
-
-                int nextPointIdx = (curRot + 1) % (2 * n);
-
-                // 다음위치에 로봇이 존재하거나, 낭떨어지라면 가만히 있기
-                if (visited[nextPointIdx] || nextPointIdx == downPoint || arr[nextPointIdx] <= 0) {
-                    robot.add(curRot);
-                    visited[curRot] = true;
-                } else {
-                    visited[nextPointIdx] = true;
-                    robot.add(nextPointIdx);
-                    arr[nextPointIdx]--;
-                }
-            }
-
-            // 3. 올리는 위치에 내구도가 0이 아니고, 로봇이 없다면 올리기
-            if (!visited[upPoint] && arr[upPoint] != 0) {
-                robot.add(upPoint);
-                visited[upPoint] = true;
-                arr[upPoint]--;
-            }
-
-            // 주석 출력구문
-            System.out.println("upPoint = " + upPoint);
-            System.out.println("downPoint = " + downPoint);
-            for (int i : arr) {
-                System.out.print(i + " ");
-            }
-            System.out.println();
-
-            for (Integer integer : robot) {
-                System.out.println("로봇 위치 = " + integer);
-            }
-            System.out.println("============");
-
-            // 4. 내구도가 0인칸이 k이상이라면 과정 종료하기
-            int cnt = 0;
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] <= 0) {
-                    cnt++;
-                }
-            }
-            if (cnt >= k) {
-                break;
-            }
-
+        st = new StringTokenizer(bf.readLine());
+        for(int i =0; i<n; i++){
+            topArr.add(Integer.parseInt(st.nextToken()));
+            isTopRobotArr.add(false);
         }
-        System.out.println(res);
+        for(int i =0; i<n; i++){
+            bottomArr.add(Integer.parseInt(st.nextToken()));
+            isBottomRobotArr.add(false);
+        }
+
+        int res = 0;
+        int cnt = 0;
+        int firstIdx = 0;
+        int LastIdx = n-1;
+        while(res < k){
+            cnt++;
+            // top컨베이어 벨트는 로봇을 : 내리는 과정 및 이동하는 과정
+            // bottom 컨베이어 벨트는 로봇을 올리는 과정 및 이동하는 과정
+        }
+        System.out.println(cnt);
     }
 }

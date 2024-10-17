@@ -1,0 +1,20 @@
+
+—
+java:S1104"OMake arr a static final constant or non-public and provide accessors if needed.(û©îƒúÿÿÿÿ8×øäŒê1J$8db903ab-4b8f-4e66-af78-b43d504219fb
+’
+java:S1104"OMake set a static final constant or non-public and provide accessors if needed.(¹Ğâ8‚‡íŒê1J$9fa9b32a-c569-4135-9628-19bbac75ad24
+q
+java:S1444")Make this "public static arr" field final(û©îƒúÿÿÿÿ8ÙøäŒê1J$42ef657b-135b-4325-be18-65f3186252a8
+l
+java:S1444")Make this "public static set" field final(¹Ğâ8ƒ‡íŒê1J$5c65e508-ca97-4aff-bea7-1718f17ea51c
+	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾¡úŒ8ÚøäŒê1J$9aa325ef-c7ec-45a2-a9e2-8a12ab99d442
+e
+java:S2386"Make this member "protected".(û©îƒúÿÿÿÿ8ƒùäŒê1J$35d72768-f9ca-442e-97d2-c15cd9e9eccf
+`
+java:S2386"Make this member "protected".(¹Ğâ8ß‡íŒê1J$db447c56-ce10-4e64-a28f-320147100176
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñ¢‘ä8†ùäŒê1J$e52dd658-c26d-415d-b285-ff4239d989dc
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Û¿ıùÿÿÿÿ8†ùäŒê1J$08f5dfae-8002-4b78-8de0-0670e12a0af7
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä‰‰Ù8†ùäŒê1J$b4fd4c5a-76bf-4255-bbd9-921e889b0b06
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÁèĞ8†ùäŒê1J$37472ef3-9038-4ed4-b476-0afdce605137
+m	java:S1062"+Replace this use of System.out by a logger.(Öû³œ8ß‚ëŒê1J$99bb7bfe-5b90-412d-ab29-ab5f0e350edb

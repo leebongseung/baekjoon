@@ -1,0 +1,51 @@
+
+“
+java:S1104 "PMake dice a static final constant or non-public and provide accessors if needed.(®âë8’€ÇÜô1J$672b3374-c2ee-4dff-b0ff-64a88c130dff
+
+java:S1104!"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8’€ÇÜô1J$0454be8c-986d-4bfd-b34b-ea94d1020568
+
+java:S1104""MMake m a static final constant or non-public and provide accessors if needed.(–Åö8’€ÇÜô1J$4b256f36-c9e9-45b0-a2b6-70a6d5ff51e0
+•
+java:S1104#"MMake x a static final constant or non-public and provide accessors if needed.(§ÈßÂÿÿÿÿÿ8’€ÇÜô1J$e1aaed2e-3d56-4f5d-9b1b-ffde62bee3c3
+•
+java:S1104$"MMake y a static final constant or non-public and provide accessors if needed.(µ†í¢ùÿÿÿÿ8’€ÇÜô1J$a4b29708-e4d8-46d1-8c63-d42bf42ef57c
+•
+java:S1104%"MMake k a static final constant or non-public and provide accessors if needed.(®íÍ€ıÿÿÿÿ8“€ÇÜô1J$215f1073-b75e-44eb-92dd-d20331163737
+‘
+java:S1104'"NMake dx a static final constant or non-public and provide accessors if needed.(Š³Î 8“€ÇÜô1J$6625e87e-fb73-435c-96a9-9e4622c88a7a
+‘
+java:S1104("NMake dy a static final constant or non-public and provide accessors if needed.(à¯ä8“€ÇÜô1J$fb06c0d9-360a-4535-9da0-7ca88d700118
+’
+java:S1104*"OMake arr a static final constant or non-public and provide accessors if needed.(Š÷ö˜8“€ÇÜô1J$0f9c2364-0451-4968-a360-d3271c2a5e31
+–
+java:S1104+"NMake sj a static final constant or non-public and provide accessors if needed.(¬êĞøÿÿÿÿ8“€ÇÜô1J$9a1c4f5f-3423-436d-9a61-95977057ac5d
+m
+java:S1444 "*Make this "public static dice" field final(®âë8”€ÇÜô1J$2b809155-610d-486f-b5ce-7d15082c4b6a
+j
+java:S1444!"'Make this "public static n" field final(ÓœşÚ8”€ÇÜô1J$a58881f0-411e-4d14-96ea-10020863f6d6
+j
+java:S1444""'Make this "public static m" field final(–Åö8”€ÇÜô1J$a8bbb112-4960-4ae1-b286-fb6dcad3d4a6
+o
+java:S1444#"'Make this "public static x" field final(§ÈßÂÿÿÿÿÿ8”€ÇÜô1J$fd252671-ed43-40ca-91f0-c89367258e3d
+o
+java:S1444$"'Make this "public static y" field final(µ†í¢ùÿÿÿÿ8”€ÇÜô1J$5b394683-7264-499f-87b6-b902fda304e6
+o
+java:S1444%"'Make this "public static k" field final(®íÍ€ıÿÿÿÿ8”€ÇÜô1J$7c5692b3-a3bd-4503-bbca-2a11cf813fd5
+k
+java:S1444'"(Make this "public static dx" field final(Š³Î 8•€ÇÜô1J$c841197c-79c6-46de-95a7-a4c625aef13e
+k
+java:S1444("(Make this "public static dy" field final(à¯ä8•€ÇÜô1J$b7ce1d70-768c-4236-a48a-17c76dcc5990
+l
+java:S1444*")Make this "public static arr" field final(Š÷ö˜8•€ÇÜô1J$ee72d42f-07f0-4713-9798-580d6d0a55a3
+p
+java:S1444+"(Make this "public static sj" field final(¬êĞøÿÿÿÿ8•€ÇÜô1J$11fe95ed-41de-43b6-897c-c2b31e0e32a3
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÑòÅƒ8–€ÇÜô1J$ca9d7106-e36c-41a6-9295-c77c3924a702
+`
+java:S2386 "Make this member "protected".(®âë8·€ÇÜô1J$8f9a9e84-28cf-4b97-b583-61c28e81a1bb
+`
+java:S2386'"Make this member "protected".(Š³Î 8·€ÇÜô1J$93425de4-84bb-4db3-8624-110eb31b4650
+`
+java:S2386("Make this member "protected".(à¯ä8¸€ÇÜô1J$b049f082-b618-4213-9ed8-0c9d9dc433bf
+a
+java:S23862"Make member "arr" "protected".(¨ô²8¿€ÇÜô1J$d0e6987e-39e3-4a37-be96-617a16c053bd
+m	java:S106D"+Replace this use of System.out by a logger.(Àô²Å8Ã€ÇÜô1J$9162b06b-e676-44af-a666-c51c6240732c

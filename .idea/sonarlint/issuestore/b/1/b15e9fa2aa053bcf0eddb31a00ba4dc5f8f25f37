@@ -1,0 +1,24 @@
+
+›	java:S135:"YReduce the total number of break and continue statements in this loop to use at most one.(ÊöË8£Óµü1J$8c7f1803-ff48-4b33-8131-fcbc496adcf1
+›
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(‡Üùÿÿÿÿ8¤Óµü1J$c5337484-726e-434c-8c73-077419b8111b
+š
+java:S1104"RMake maxVal a static final constant or non-public and provide accessors if needed.(Œï¨Óûÿÿÿÿ8¤Óµü1J$ffdf4886-dab8-4741-8014-1ebbf463a694
+—
+java:S1104"OMake res a static final constant or non-public and provide accessors if needed.(Ù³ìÿÿÿÿÿ8¤Óµü1J$9a8bf4af-a4dc-4f3e-861b-ecbe4041b56b
+u
+java:S1444"-Make this "public static visited" field final(‡Üùÿÿÿÿ8¥Óµü1J$d0fb7261-a338-4d06-99ee-bfeb63b22a14
+t
+java:S1444",Make this "public static maxVal" field final(Œï¨Óûÿÿÿÿ8¥Óµü1J$33915177-a32d-4c07-aea9-98146d21e3f1
+q
+java:S1444")Make this "public static res" field final(Ù³ìÿÿÿÿÿ8¥Óµü1J$073e617f-aeca-43ac-bfa8-0365c378f553
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ôö‹„8¥Óµü1J$e95073f3-bf58-4cf6-af05-ec94dcd22700
+e
+java:S2386"Make this member "protected".(‡Üùÿÿÿÿ8®Ôµü1J$f212c54c-328a-4f39-b51b-9e8e5590ee66
+e
+java:S2386"Make this member "protected".(Œï¨Óûÿÿÿÿ8®Ôµü1J$4f36dc71-25b8-42d8-a57b-6d19c263c346
+e
+java:S2386"Make this member "protected".(Ù³ìÿÿÿÿÿ8¯Ôµü1J$b341cbba-56cb-41c6-ae24-200d29aa63dd
+m	java:S106("+Replace this use of System.out by a logger.(˜é¡ñ8‹ïÎ°ş1J$8ff56122-8dfc-486d-a173-878386188ce4
+š
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(„ÄÄ³üÿÿÿÿ8¶Ôµü1J$2bf1268f-e4b8-4c89-8f85-ad6ec2ac4502

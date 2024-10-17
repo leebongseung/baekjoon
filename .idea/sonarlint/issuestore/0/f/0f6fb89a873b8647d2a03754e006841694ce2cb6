@@ -1,0 +1,19 @@
+
+
+java:S1104 "MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8ö²”Ü2J$e9af2dd3-9729-4a33-ba92-7ed3a2ee0086
+—
+java:S1104!"OMake res a static final constant or non-public and provide accessors if needed.(²õŠ¦ùÿÿÿÿ8÷²”Ü2J$c3a3311c-8739-480d-b14f-31fddd74ac9d
+’
+java:S1104""OMake lst a static final constant or non-public and provide accessors if needed.(ß„Å8÷²”Ü2J$b7f3d0ae-7458-4ed0-98f4-4f62bd57d35e
+j
+java:S1444 "'Make this "public static n" field final(ÓœşÚ8÷²”Ü2J$a78533a4-63aa-4d3b-839e-3b83dde141ec
+q
+java:S1444!")Make this "public static res" field final(²õŠ¦ùÿÿÿÿ8÷²”Ü2J$a7650b6c-8c03-4147-8eef-fa6c872909a6
+l
+java:S1444"")Make this "public static lst" field final(ß„Å8÷²”Ü2J$06d6e367-6a91-4c74-94e1-d75efed697b8
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ïõÉÒúÿÿÿÿ8ø²”Ü2J$e9baed6f-1f40-43af-86b4-9eab58090363
+f
+java:S2386'"Make member "lst" "protected".(½œéáøÿÿÿÿ8‹³”Ü2J$0944f70b-c107-491d-b464-f2a1fe19a0d1
+m	java:S106-"+Replace this use of System.out by a logger.(ì’¶â8ÓÁ•Ü2J$a99305ee-3f8c-471a-bbc2-27c157163497
+l
+java:S54139")Verify that "remove()" is used correctly.(Øåé¹8³”Ü2J$22d1ba3f-ee76-47f4-aa55-f3010563fec0

@@ -1,0 +1,51 @@
+
+—
+java:S1104"OMake row a static final constant or non-public and provide accessors if needed.(–îáùÿÿÿÿ8ˆ²Åà2J$24507b3b-8072-4266-91a0-9c560ddfa5b6
+•
+java:S1104"RMake column a static final constant or non-public and provide accessors if needed.(àªˆó8ˆ²Åà2J$4ed59151-fdaa-49ac-bccd-a662d2be563d
+•
+java:S1104"MMake k a static final constant or non-public and provide accessors if needed.(®íÍ€ıÿÿÿÿ8‰²Åà2J$529e7f9f-c132-4af1-bade-968bc40e1b22
+’
+java:S1104"OMake map a static final constant or non-public and provide accessors if needed.(‹âª8‰²Åà2J$72f871b9-6c54-4d66-aefb-043c27e1f49f
+–
+java:S1104"SMake visited a static final constant or non-public and provide accessors if needed.(à¥ºÉ8‰²Åà2J$5a66a8d7-e6e9-4dc2-aed8-e56f9062977b
+Ÿ
+java:S1104"WMake startIdxRow a static final constant or non-public and provide accessors if needed.(‚«¾¬ıÿÿÿÿ8‰²Åà2J$fc65d4dd-8279-401b-a21e-3be0e111b27b
+¢
+java:S1104"ZMake startIdxColumn a static final constant or non-public and provide accessors if needed.(‚«¾¬ıÿÿÿÿ8‰²Åà2J$f426cb19-f7a0-4a39-9a2c-6d6797fbe7fc
+
+java:S1104"UMake desIdxRow a static final constant or non-public and provide accessors if needed.(‚«¾¬ıÿÿÿÿ8‰²Åà2J$ceb39cac-1c4a-417c-a064-7b7910d0a972
+ 
+java:S1104"XMake desIdxColumn a static final constant or non-public and provide accessors if needed.(‚«¾¬ıÿÿÿÿ8‰²Åà2J$6ab74c85-afa8-419b-97c5-33d802a2759c
+—
+java:S1104"OMake res a static final constant or non-public and provide accessors if needed.(‚«¾¬ıÿÿÿÿ8‰²Åà2J$166e9699-ecd6-44df-8cf6-a7592d16455b
+q
+java:S1444")Make this "public static row" field final(–îáùÿÿÿÿ8Š²Åà2J$2b87d4c1-6097-4da0-953e-4f4bece90db1
+o
+java:S1444",Make this "public static column" field final(àªˆó8Š²Åà2J$a2f27292-b950-4c24-a584-176543b7a45e
+o
+java:S1444"'Make this "public static k" field final(®íÍ€ıÿÿÿÿ8Š²Åà2J$7801f6ce-0b72-4c13-8096-e8da98eb3b17
+l
+java:S1444")Make this "public static map" field final(‹âª8Š²Åà2J$f4ef7a83-7808-4e28-84eb-b0feffb5e95a
+p
+java:S1444"-Make this "public static visited" field final(à¥ºÉ8Š²Åà2J$0f834b07-9cc5-4107-87da-94c1a32afa78
+y
+java:S1444"1Make this "public static startIdxRow" field final(‚«¾¬ıÿÿÿÿ8Š²Åà2J$574263a9-cc05-447c-b73f-4e20ed1f16d2
+|
+java:S1444"4Make this "public static startIdxColumn" field final(‚«¾¬ıÿÿÿÿ8Š²Åà2J$8cdfde9f-cdb9-4fb7-ac8e-ebde3825be1a
+w
+java:S1444"/Make this "public static desIdxRow" field final(‚«¾¬ıÿÿÿÿ8Š²Åà2J$68a90daa-bbe3-44fb-be18-4f16f9c7c196
+z
+java:S1444"2Make this "public static desIdxColumn" field final(‚«¾¬ıÿÿÿÿ8‹²Åà2J$0dfdaf12-608f-45d7-8535-a31bfc195436
+q
+java:S1444")Make this "public static res" field final(‚«¾¬ıÿÿÿÿ8‹²Åà2J$dd3ca8c8-fbf7-4b98-901d-ce0fde8d7faf
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùµã˜8Œ²Åà2J$8a22dfdb-b968-446c-9100-19d7f4a8e813
+“
+java:S1659"KDeclare "startIdxColumn" and all following declarations on a separate line.(‚«¾¬ıÿÿÿÿ8³²Åà2J$1852a2b8-87ce-4563-bea8-eb431b55e200
+f
+java:S2386#"Make member "map" "protected".(³ÁÌşÿÿÿÿ8¹²Åà2J$d3b9f3cf-8729-4f20-b7c7-6bd3489561d7
+e
+java:S2386$""Make member "visited" "protected".(ŒÄĞî8º²Åà2J$35202ab5-b3a3-46ca-80d8-53621a324ac5
+m	java:S1067"+Replace this use of System.out by a logger.(ì’¶â8÷µÈà2J$91036888-b36e-4018-8bd3-ea7ac381420a
+g
+java:S1659T"Declare "y" on a separate line.(±šß¯ùÿÿÿÿ8½²Åà2J$4b29c8a3-0b65-42f8-addb-c8edadc7ce1e

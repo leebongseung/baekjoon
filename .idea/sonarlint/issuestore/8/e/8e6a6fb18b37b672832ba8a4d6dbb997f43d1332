@@ -1,0 +1,26 @@
+
+¡	java:S135€"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8‰„å’ì1J$cab2ce43-8ce9-4bd4-bca3-77792b423443
+¡	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(À¼¼§ıÿÿÿÿ8Š„å’ì1J$9533a289-0f53-42df-ac33-c30051a6c5c9
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ĞÙˆÇûÿÿÿÿ8Œ„å’ì1J$f6ad2b9a-7ae7-433a-bbb5-c4fb368e87a7
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’¤ñØÿÿÿÿÿ8Ì†å’ì1J$09b24774-9cf9-4433-bc96-c8db04350438
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù¹¬Üüÿÿÿÿ8Í†å’ì1J$01099093-be38-4f89-9b67-5992b702c887
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È•¶Şşÿÿÿÿ8Í†å’ì1J$18f87abc-4dc9-457a-8a4b-0d31f66785ae
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Òç´Î8Í†å’ì1J$03bd4207-09a6-4fd9-887d-cbf720f5d6b3
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§§¯ş8Í†å’ì1J$59ca3ea2-347e-4064-aa26-5b67a25d5796
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ï°ñÆ8Í†å’ì1J$5e877902-149c-4835-87f6-2a25c24cd653
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÅ•¾8Í†å’ì1J$269363a6-a619-4042-a7ca-1dc88171d074
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ò÷Ìèÿÿÿÿÿ8Ï†å’ì1J$06ba0579-844a-4c94-8c21-16e403d70c27
+œ	java:S1154"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñ¢‘ä8Ó†å’ì1J$11876868-3516-4893-834f-c3998149c88c
+œ	java:S1155"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“©»†8Ø†å’ì1J$bda86e84-f765-4169-aea4-cb68db8788aa
+œ	java:S1156"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™œŞÂ8Ù†å’ì1J$5bdd9458-8b16-432e-a238-3e448f273e8f
+œ	java:S1157"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä‰‰Ù8Ù†å’ì1J$dac193bc-20e1-4fd8-9f8c-12b227036357
+¡	java:S1158"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í¬³ÿùÿÿÿÿ8Ù†å’ì1J$836e12f5-9fa9-4443-acb9-0d789f9a11af
+¡	java:S1159"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…¦†¥úÿÿÿÿ8Ú†å’ì1J$ee8a4837-a62b-4617-989f-a853dfe26d77
+œ	java:S115:"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î³À¢8Ú†å’ì1J$4169d0a2-fd1c-4359-8cce-e2b17cf6ebde
+œ	java:S115;"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶·õ·8Ú†å’ì1J$a6a270f1-325b-4513-ae1c-7d21e7cb38bf
+•
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(œû¿Ø8ü†å’ì1J$fc252d2b-53a7-4eb2-abc8-c53ae806a0ca
+s	java:S106§"+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8µ‡å’ì1J$acd50ef1-f4ee-45d6-8ccc-190d82bb47d2
+	java:S125 "<This block of commented-out lines of code should be removed.(™ŞĞº8º‡å’ì1J$f435f7b4-7f58-4b9b-938a-bc18ab699438
+‰
+java:S6541N"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 68 to 64, Complexity from 24 to 14, Nesting Level from 6 to 2, Number of Variables from 28 to 6.(œû¿Ø8¼‡å’ì1J$d3d333f3-0f4c-490a-8509-9dea0ea75d5d
