@@ -33,6 +33,7 @@ public class _23295 {
 
         // 0번째 인덱스를 사용하지 않음.
         int[] arr = new int[100001];
+        int end = 0;
         for(int i=0; i<n; i++){
             int k = Integer.parseInt(br.readLine()); //가능한 시간덩어리
             // 시간은 최대 0~ 100,000만 까지임.
@@ -40,6 +41,7 @@ public class _23295 {
                 st = new StringTokenizer(br.readLine());
                 int startTime = Integer.parseInt(st.nextToken());
                 int endTime = Integer.parseInt(st.nextToken());
+                end = Math.max(end, endTime);
 
                 while(startTime < endTime){
                     arr[startTime] ++;
@@ -58,7 +60,7 @@ public class _23295 {
         int max = Integer.MIN_VALUE;
         int startTime = -1;
         int endTime = -1;
-        for(int j=0; j <= 100000 - t; j++){
+        for(int j=0; j <= end - t; j++){
             int sum = 0;
             for(int z=j; z< j+t; z++){
                 sum += arr[z];
